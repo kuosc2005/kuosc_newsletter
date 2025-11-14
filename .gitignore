@@ -1,2 +1,26 @@
 node_modules/
 package-lock.json
+
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders (VS Code)
+.vscode/
