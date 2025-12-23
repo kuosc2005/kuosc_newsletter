@@ -1,37 +1,31 @@
 {
   "name": "kuosc_newsletter",
   "version": "1.0.0",
-  "description": "Automatic daily newsletter generator for KUOSC",
-  "main": "dist/generateNewsletter.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "generate": "node dist/generateNewsletter.js",
-    "dev": "ts-node-esm src/generateNewsletter.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kuosc2005/kuosc_newsletter.git"
   },
-  "keywords": [
-    "newsletter",
-    "automation",
-    "kuosc"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/kuosc2005/kuosc_newsletter/issues"
   },
   "homepage": "https://github.com/kuosc2005/kuosc_newsletter#readme",
-  "dependencies": {
-    "node-fetch": "^3.4.1",
-    "rss-parser": "^3.12.0"
-  },
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "@types/node": "^20.0.0",
-    "ts-node": "^10.9.1",
-    "ts-node-esm": "^1.1.0"
+    "@types/node": "^25.0.3",
+    "@types/pg": "^8.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "pg": "^8.16.3"
   }
 }
