@@ -1,8 +1,8 @@
 import "dotenv/config";
-import { generateNewsletter } from "./services/newsletter";
+import { getGithubActivitySummary } from "./api/github";
 
 async function main() {
-  const data = await generateNewsletter();
+  const data = await getGithubActivitySummary();
   console.log(JSON.stringify(data, null, 2));
 }
 

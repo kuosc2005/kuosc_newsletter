@@ -1,8 +1,9 @@
 import { formatISO, subWeeks } from "date-fns";
-import { Commit, GithubRepo } from "../types/github";
+import { Summary } from "../types/github";
 import { githubClient } from "../utils/http";
 
-export async function getRepos(org: string): Promise<GithubRepo[]> {
+export async function getGithubActivitySummary(): Promise<Summary[]> {
+  const org = "kuosc2005";
   const sinceDate = formatISO(subWeeks(new Date(), 1));
   const query = `
     query getOrganizationRepos($org: String!, $sinceDate: GitTimestamp!) {
