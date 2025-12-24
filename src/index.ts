@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { generateNewsletter } from "./services/newsletter";
 
 async function main() {

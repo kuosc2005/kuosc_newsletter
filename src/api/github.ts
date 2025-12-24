@@ -3,8 +3,27 @@ import { Commit, GithubRepo } from "../types/github";
 import { githubClient } from "../utils/http";
 
 export async function getRepos(org: string): Promise<GithubRepo[]> {
-  const res = await githubClient.get<GithubRepo[]>(`/orgs/${org}/repos`);
-  return res.data;
+  const query = `
+    query getOrganizationRepos($org: String!) {
+      organization(login: $org) {
+        repositories(first: 50) {
+          nodes {
+            id
+            name
+            description
+          }
+        }
+      }
+    }
+  `;
+
+  const res = await githubClient.post("/graphql", {
+    query,
+    variables: { org },
+  });
+
+  console.log(res.data);
+  return res.data.data.organization.repositories.nodes;
 }
 
 export async function getCommitsWeekAgo(
