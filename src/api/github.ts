@@ -20,6 +20,7 @@ export async function getRepos(org: string): Promise<GithubRepo[]> {
                     nodes {
                       id
                       url
+                      oid
                       message
                       additions
                       deletions

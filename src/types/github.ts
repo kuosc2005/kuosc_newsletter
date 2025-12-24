@@ -2,28 +2,34 @@ export interface Summary {
   repo?: GithubRepo;
   commits?: Commit[];
 }
+
 export interface GithubRepo {
-  id: number;
+  id: string;
   name: string;
   description: string;
+  defaultBranchRef?: {
+    target: {
+      history: {
+        nodes: Commit[];
+      };
+    };
+  };
 }
 
 export interface Commit {
-  id: number;
+  id: string;
+  oid: string;
   url: string;
-  commit: {
-    author: {
-      name: string;
-      email: string;
-      date: string;
+  message: string;
+  additions: number;
+  deletions: number;
+  changedFilesIfAvailable: number;
+  committedDate: string;
+  author: {
+    name: string;
+    email: string;
+    user?: {
+      login: string;
     };
   };
-  sha: string;
-  message: String;
-  stats: {
-    additions: number;
-    deletions: number;
-    total: number;
-  };
-  files_changed: number;
 }
