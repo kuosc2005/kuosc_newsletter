@@ -1,37 +1,23 @@
-import { fetchRepos } from "./fetchRepos.js";
-import { fetchNews } from "./fetchNews.js";
-import { generateNewsletter } from "./generatenewsletter.js";
-import { fetchLatestPRsFromOrg } from "./fetchPrs.js";
-import * as fs from "fs";
 
+import "dotenv/config";
+import { fetchData } from "./controller/newsletter.controller";
 async function main() {
-   const org = "kuosc2005";
 
-  console.log("Fetching latest PRs from KUOSC repos...");
-  const latestPRs = await fetchLatestPRsFromOrg(org);
+  const owner = 'atrociousdinner'
+  const name = 'expense-tracker-cli'
 
-  console.log(`✅ Found ${latestPRs.length} latest PRs:\n`);
-  latestPRs.forEach(pr => {
-    console.log(`[${pr.repo}] ${pr.title} by ${pr.author} → ${pr.url}`);
-  });
+  try {
+    const result = await fetchData(
+      owner,
+      name
+  );
 
-  console.log("Fetching KUOSC repos...");
-  const repos = await fetchRepos();
-  console.log("Repos:", repos); // ✅ Log the repos
-
-  
-
-  console.log("Fetching open-source news...");
-  const news = await fetchNews();
-  console.log("News:", news); // ✅ Log the news
-
-    const newsletter = generateNewsletter(repos, news, latestPRs);
-
-
-  fs.writeFileSync("newsletter.md", newsletter);
-  console.log("✅ Newsletter generated at newsletter.md");
+    console.log(JSON.stringify(result, null, 2));
+  } catch (error) {
+    console.error("Failed to generate repo activity summary");
+    console.error(error);
+    process.exit(1);
+  }
 }
 
-main().catch((err) => {
-  console.error("❌ Error generating newsletter:", err);
-});
+main();
