@@ -4,7 +4,7 @@ import { GithubRepo, Summary } from "./types/github";
 import { sendDigestEmail } from "./sendDigest";
 
 async function main() {
-  const owner = "kuosc2005";
+  const owner = "facebook";
   try {
     const repos = await fetchRepos(owner);
     const summary: Summary[] = await Promise.all(
