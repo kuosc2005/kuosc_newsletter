@@ -24,7 +24,7 @@ export const PR_QUERY = gql`
           }
           additions
           deletions
-          changedFilesIfAvailable
+          changedFiles
         }
       }
     }

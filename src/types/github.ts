@@ -64,5 +64,5 @@ export interface PullRequest{
   }
   additions: number
   deletions:number
-  changedFilesIfAvailable: number;
+  changedFiles: number;
 }
