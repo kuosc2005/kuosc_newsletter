@@ -1,6 +1,7 @@
 import "dotenv/config";
 import { fetchData, fetchRepos } from "./controller/newsletter.controller";
 import { GithubRepo, Summary } from "./types/github";
+import { sendDigestEmail } from "./sendDigest";
 
 async function main() {
   const owner = "kuosc2005";
@@ -16,6 +17,7 @@ async function main() {
       }),
     );
     console.log(JSON.stringify(summary, null, 2));
+    await sendDigestEmail(summary);
   } catch (error) {
     console.error("Failed to generate repo activity summary");
     console.error(error);
