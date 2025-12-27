@@ -1,10 +1,10 @@
 import "dotenv/config";
-import { fetchData } from "./controller/newsletter.controller";
+import { fetchData, fetchRepos } from "./controller/newsletter.controller";
 async function main() {
-  const owner = "atrociousdinner";
-  const name = "expense-tracker-cli";
-
+  const owner = "facebook";
+  const name = "react";
   try {
+    const repos = await fetchRepos(owner);
     const result = await fetchData(owner, name);
     console.log(JSON.stringify(result, null, 2));
   } catch (error) {

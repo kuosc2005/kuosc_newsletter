@@ -1,7 +1,12 @@
-import { getPRData, getIssueData } from "../services/newsletter.service";
+import {
+  getPRData,
+  getIssueData,
+  getReposData,
+} from "../services/newsletter.service";
 
 export async function fetchData(owner: string, name: string) {
-  const [issues, pullRequests] = await Promise.all([
+  const [repos, issues, pullRequests] = await Promise.all([
+    getReposData(owner),
     getIssueData(owner, name),
     getPRData(owner, name),
   ]);
@@ -12,4 +17,9 @@ export async function fetchData(owner: string, name: string) {
     issues,
     pullRequests,
   };
+}
+
+export async function fetchRepos(owner: string) {
+  const repos = await getReposData(owner);
+  return repos;
 }

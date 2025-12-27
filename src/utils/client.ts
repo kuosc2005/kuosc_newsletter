@@ -6,5 +6,5 @@ export const githubClient = new GraphQLClient(
     headers: {
       Authorization: `Bearer ${process.env.TOKEN}`,
     },
-  }
+  },
 );
