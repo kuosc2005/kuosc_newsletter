@@ -5,7 +5,6 @@ import { REPO_QUERY } from "../api/repos";
 
 export async function getReposData(owner: string) {
   const data = await githubClient.request(REPO_QUERY, { owner });
-  console.log(JSON.stringify(data, null, 2));
   return data;
 }
 

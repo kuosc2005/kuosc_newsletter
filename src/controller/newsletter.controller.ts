@@ -3,8 +3,11 @@ import {
   getIssueData,
   getReposData,
 } from "../services/newsletter.service";
+import { formatISO, subWeeks } from "date-fns";
 
 export async function fetchData(owner: string, name: string) {
+  const sinceDate = formatISO(subWeeks(new Date(), 1));
+
   const [repos, issues, pullRequests] = await Promise.all([
     getReposData(owner),
     getIssueData(owner, name),

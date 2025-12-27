@@ -5,15 +5,9 @@ export interface Summary {
 
 export interface GithubRepo {
   id: string;
+  url: string;
   name: string;
   description: string;
-  defaultBranchRef?: {
-    target: {
-      history: {
-        nodes: Commit[];
-      };
-    };
-  };
 }
 
 export interface Commit {

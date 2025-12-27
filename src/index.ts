@@ -5,8 +5,9 @@ async function main() {
   const name = "react";
   try {
     const repos = await fetchRepos(owner);
+    repos.forEach((element) => {});
     const result = await fetchData(owner, name);
-    console.log(JSON.stringify(result, null, 2));
+    console.log(JSON.stringify(repos, null, 2));
   } catch (error) {
     console.error("Failed to generate repo activity summary");
     console.error(error);
