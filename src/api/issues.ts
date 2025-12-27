@@ -9,6 +9,7 @@ export const ISSUE_QUERY = gql`
         orderBy: { field: CREATED_AT, direction: DESC }
       ) {
         nodes {
+          id
           title
           url
           author {

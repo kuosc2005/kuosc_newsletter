@@ -3,7 +3,7 @@ import { ISSUE_QUERY } from "../api/issues";
 import { PR_QUERY } from "../api/pull_requests";
 import { REPO_QUERY } from "../api/repos";
 import { COMMIT_QUERY } from "../api/commits";
-import { Commit, GithubRepo } from "../types/github";
+import { Commit, GithubRepo, Issue, PullRequest } from "../types/github";
 
 export async function getReposData(owner: string): Promise<GithubRepo[]> {
   const data = await githubClient.request(REPO_QUERY, { owner });
@@ -22,12 +22,12 @@ export async function getCommitsData(
   });
   return data.repository.defaultBranchRef?.target.history.nodes;
 }
-export async function getIssueData(owner: string, name: string) {
+export async function getIssueData(owner: string, name: string): Promise<Issue[]> {
   const data = await githubClient.request(ISSUE_QUERY, { owner, name });
   return data.repository.issues?.nodes;
 }
 
-export async function getPRData(owner: string, name: string) {
+export async function getPRData(owner: string, name: string): Promise<PullRequest[]> {
   const data = await githubClient.request(PR_QUERY, { owner, name });
   return data.repository.issues?.nodes;
 }

@@ -9,6 +9,7 @@ export const PR_QUERY = gql`
         orderBy: { field: CREATED_AT, direction: DESC }
       ) {
         nodes {
+          id
           number
           title
           url
@@ -23,7 +24,7 @@ export const PR_QUERY = gql`
           }
           additions
           deletions
-          changedFiles
+          changedFilesIfAvailable
         }
       }
     }

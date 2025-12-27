@@ -1,6 +1,8 @@
 export interface Summary {
   repo?: GithubRepo;
   commits?: Commit[];
+  issues?: Issue[];
+  pullrequests?: PullRequest[];
 }
 
 export interface GithubRepo {
@@ -26,4 +28,41 @@ export interface Commit {
       login: string;
     };
   };
+}
+
+export interface Issue {
+  id: string;
+  title: string;
+  url: string;
+  author: {
+    login: string;
+    url: string;
+  };
+  createdAt: string;
+  comments?: {
+    totalCount: number;
+  };
+  labels?: {
+    name: string;
+    color: string;
+  };
+}
+
+export interface PullRequest{
+  id: string,
+  number: string,
+  title: string,
+  url: string,
+  state: string,
+  createdAt: string,
+  mergedAt: string,
+  author:{
+    login: string
+  }
+  comments?:{
+    totalCount: number
+  }
+  additions: number
+  deletions:number
+  changedFilesIfAvailable: number;
 }
