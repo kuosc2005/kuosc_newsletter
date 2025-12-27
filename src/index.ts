@@ -3,7 +3,7 @@ import { fetchData, fetchRepos } from "./controller/newsletter.controller";
 import { GithubRepo, Summary } from "./types/github";
 
 async function main() {
-  const owner = "kuosc2005";
+  const owner = "facebook";
   try {
     const repos = await fetchRepos(owner);
     const summary: Summary[] = await Promise.all(

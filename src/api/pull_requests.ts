@@ -1,32 +1,33 @@
 import { gql } from "graphql-request";
 
 export const PR_QUERY = gql`
-  query PRActivity($owner: String!, $name: String!) {
-    repository(owner: $owner, name: $name) {
-      pullRequests(
-        first: 5
-        states: [OPEN, CLOSED, MERGED]
-        orderBy: { field: CREATED_AT, direction: DESC }
-      ) {
-        nodes {
-          id
-          number
-          title
+query PRActivitySince($searchQuery: String!) {
+  search(
+    query: $searchQuery
+    type: ISSUE
+    first: 5
+  ) {
+    nodes {
+      ... on PullRequest {
+        id
+        number
+        title
+        url
+        state
+        createdAt
+        mergedAt
+        author {
+          login
           url
-          state
-          createdAt
-          mergedAt
-          author {
-            login
-          }
-          comments {
-            totalCount
-          }
-          additions
-          deletions
-          changedFiles
         }
+        comments {
+          totalCount
+        }
+        additions
+        deletions
+        changedFiles
       }
     }
   }
+}
 `;
