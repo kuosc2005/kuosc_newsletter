@@ -14,18 +14,15 @@ export async function fetchData(owner: string, name: string) {
     getIssueData(owner, name),
     getPRData(owner, name),
   ]);
-
-
-
   return {
     generatedAt: new Date().toISOString(),
-    issues, 
+    issues,
     commits,
-    pullRequests
+    pullRequests,
   };
 }
 
-export async function fetchRepos(owner: string) {
+export async function fetchRepos(owner: string): Promise<GithubRepo[]> {
   const repos = await getReposData(owner);
   return repos;
 }

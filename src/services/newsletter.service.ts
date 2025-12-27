@@ -3,8 +3,9 @@ import { ISSUE_QUERY } from "../api/issues";
 import { PR_QUERY } from "../api/pull_requests";
 import { REPO_QUERY } from "../api/repos";
 import { COMMIT_QUERY } from "../api/commits";
+import { Commit, GithubRepo } from "../types/github";
 
-export async function getReposData(owner: string) {
+export async function getReposData(owner: string): Promise<GithubRepo[]> {
   const data = await githubClient.request(REPO_QUERY, { owner });
   return data.organization.repositories.nodes;
 }
@@ -13,7 +14,7 @@ export async function getCommitsData(
   owner: string,
   name: string,
   sinceDate: string,
-) {
+): Promise<Commit[]> {
   const data = await githubClient.request(COMMIT_QUERY, {
     owner,
     name,
@@ -23,11 +24,10 @@ export async function getCommitsData(
 }
 export async function getIssueData(owner: string, name: string) {
   const data = await githubClient.request(ISSUE_QUERY, { owner, name });
-  return data.repository.issues?.nodes
+  return data.repository.issues?.nodes;
 }
 
 export async function getPRData(owner: string, name: string) {
   const data = await githubClient.request(PR_QUERY, { owner, name });
-  return data.repository.issues?.nodes
+  return data.repository.issues?.nodes;
 }
-
