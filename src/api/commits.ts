@@ -1,5 +1,5 @@
 import { gql } from "graphql-request";
-export const ISSUE_QUERY = gql`
+export const COMMIT_QUERY = gql`
   query CommitsActivity(
     $owner: String!
     $name: String!
