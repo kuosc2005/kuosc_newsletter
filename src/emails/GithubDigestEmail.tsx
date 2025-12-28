@@ -28,6 +28,15 @@ export default function EmailTemplate({ summary }: Props) {
     day: "2-digit",
   });
 
+  const getPRStateColor = (state: string) => {
+    const colors: Record<string, string> = {
+      OPEN: "bg-green-100 text-green-800",
+      CLOSED: "bg-red-100 text-red-800",
+      MERGED: "bg-purple-100 text-purple-800",
+    };
+    return colors[state] || "bg-gray-100 text-gray-800";
+  };
+
   return (
     <Html>
       <Preview>Weekly Github Digest</Preview>
@@ -157,7 +166,7 @@ export default function EmailTemplate({ summary }: Props) {
                     <div className="border-b border-gray-200">
                       <div className="bg-purple-50 px-5 py-2 border-b border-purple-100">
                         <p className="text-purple-900 m-2 gap-2">
-                          Merged Pull Requests
+                          Pull Requests
                         </p>
                       </div>
                       <div className="divide-y divide-gray-100">
@@ -183,10 +192,24 @@ export default function EmailTemplate({ summary }: Props) {
                                 >
                                   #{pr.number} {pr.title}
                                 </Link>
+
+                                <div className="flex items-center gap-2 mb-2">
+                                  <span
+                                    className={`${getPRStateColor(pr.state)} px-2 py-1 rounded-full text-xs capitalize`}
+                                  >
+                                    {pr.state}
+                                  </span>
+                                </div>
                                 <div className="flex items-center gap-2 mb-2 text-sm text-gray-600">
                                   <span>{pr.author.login}</span>
-                                  <span className="text-gray-400">→</span>
-                                  <span>merged by {pr.mergedBy?.login}</span>
+                                  {pr.mergedBy && (
+                                    <span>
+                                      <span className="text-gray-400">→</span>
+                                      <span>
+                                        merged by {pr.mergedBy?.login}
+                                      </span>
+                                    </span>
+                                  )}
                                   <span className="text-gray-400">•</span>
                                   <span>
                                     {formatDistanceToNow(pr.createdAt, {
@@ -200,10 +223,10 @@ export default function EmailTemplate({ summary }: Props) {
                                     {pr.changedFiles === 1 ? "file" : "files"}
                                   </span>
                                   <span className="flex items-center gap-1 text-green-600">
-                                    {pr.additions}
+                                    + {pr.additions}
                                   </span>
                                   <span className="flex items-center gap-1 text-red-600">
-                                    {pr.deletions}
+                                    - {pr.deletions}
                                   </span>
                                 </div>
                               </div>
@@ -267,10 +290,10 @@ export default function EmailTemplate({ summary }: Props) {
                                         : "files"}
                                     </span>
                                     <span className="flex items-center gap-1 text-green-600">
-                                      {commit.additions}
+                                      + {commit.additions}
                                     </span>
                                     <span className="flex items-center gap-1 text-red-600">
-                                      {commit.deletions}
+                                      - {commit.deletions}
                                     </span>
                                   </div>
                                 </div>
