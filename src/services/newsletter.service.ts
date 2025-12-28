@@ -32,6 +32,5 @@ export async function getPRData(owner: string, name: string, sinceDate:string): 
     const searchQuery = `repo:${owner}/${name} is:pr created:>=${sinceDate}` 
 
   const data = await githubClient.request(PR_QUERY, {searchQuery});
-  console.log(`PR SAMPLE -------\N`, data.search.nodes)
   return data.search.nodes
 }
