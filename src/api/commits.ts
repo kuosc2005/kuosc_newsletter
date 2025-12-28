@@ -14,7 +14,7 @@ export const COMMIT_QUERY = gql`
                 id
                 url
                 oid
-                message
+                messageHeadline
                 additions
                 deletions
                 changedFilesIfAvailable
@@ -22,8 +22,10 @@ export const COMMIT_QUERY = gql`
                 author {
                   email
                   name
+                  avatarUrl
                   user {
                     login
+                    url
                   }
                 }
               }

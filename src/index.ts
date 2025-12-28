@@ -4,15 +4,19 @@ import { GithubRepo, Summary } from "./types/github";
 import { sendDigestEmail } from "./sendDigest";
 
 async function main() {
-  const owner = "facebook";
+  const owner = "stdlib-js";
   try {
     const repos = await fetchRepos(owner);
     const summary: Summary[] = await Promise.all(
       repos.map(async (repo: GithubRepo) => {
         const issuesCommitsPullRequests = await fetchData(owner, repo.name);
         return {
-          ...repo,
+          repoId: repo.id,
+          repoUrl: repo.url,
+          repoName: repo.name,
+          repoDescription: repo.description,
           ...issuesCommitsPullRequests,
+          generatedAt: new Date().toISOString(),
         };
       }),
     );

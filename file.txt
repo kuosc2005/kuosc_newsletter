@@ -1,0 +1,4612 @@
+[
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnk1NDYxNDIzOA==",
+    "repoUrl": "https://github.com/stdlib-js/stdlib",
+    "repoName": "stdlib",
+    "repoDescription": "✨ The fundamental numerical library for JavaScript and TypeScript. ✨",
+    "issues": [
+      {
+        "id": "I_kwDOA0FY3s7gbDjM",
+        "title": "Fix JavaScript lint errors",
+        "url": "https://github.com/stdlib-js/stdlib/issues/9403",
+        "number": 9403,
+        "author": {
+          "login": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?u=2d80271bbe0ccdd24ab6d2122921fe7ebf897e78&v=4",
+          "url": "https://github.com/stdlib-bot"
+        },
+        "createdAt": "2025-12-28T00:14:43Z",
+        "comments": {
+          "totalCount": 1
+        },
+        "labels": {
+          "nodes": [
+            {
+              "name": "Good First Issue",
+              "color": "fbca04"
+            }
+          ]
+        }
+      },
+      {
+        "id": "I_kwDOA0FY3s7gJQFB",
+        "title": "[RFC]: Add guidance concerning AI usage",
+        "url": "https://github.com/stdlib-js/stdlib/issues/9347",
+        "number": 9347,
+        "author": {
+          "login": "batpigandme",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/831732?v=4",
+          "url": "https://github.com/batpigandme"
+        },
+        "createdAt": "2025-12-24T14:55:03Z",
+        "comments": {
+          "totalCount": 4
+        },
+        "labels": {
+          "nodes": [
+            {
+              "name": "RFC",
+              "color": "5319e7"
+            },
+            {
+              "name": "Needs Discussion",
+              "color": "f9d0c4"
+            },
+            {
+              "name": "Governance",
+              "color": "fef2c0"
+            }
+          ]
+        }
+      },
+      {
+        "id": "I_kwDOA0FY3s7f_rQR",
+        "title": "[RFC]: Improve doctests for ndarray instances in documentation examples (tracking issue)",
+        "url": "https://github.com/stdlib-js/stdlib/issues/9329",
+        "number": 9329,
+        "author": {
+          "login": "kgryte",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "url": "https://github.com/kgryte"
+        },
+        "createdAt": "2025-12-23T17:10:02Z",
+        "comments": {
+          "totalCount": 2
+        },
+        "labels": {
+          "nodes": [
+            {
+              "name": "RFC",
+              "color": "5319e7"
+            },
+            {
+              "name": "Documentation",
+              "color": "c2e0c6"
+            },
+            {
+              "name": "difficulty: 1",
+              "color": "2ED0FC"
+            },
+            {
+              "name": "Accepted",
+              "color": "0e8a16"
+            },
+            {
+              "name": "Good First Issue",
+              "color": "fbca04"
+            }
+          ]
+        }
+      },
+      {
+        "id": "I_kwDOA0FY3s7cBL9y",
+        "title": "[RFC]: migrate `utils` packages to `object` (tracking issue)",
+        "url": "https://github.com/stdlib-js/stdlib/issues/8755",
+        "number": 8755,
+        "author": {
+          "login": "Neerajpathak07",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?u=371d6e077cb643377cc03dc394c99e874cfdaa51&v=4",
+          "url": "https://github.com/Neerajpathak07"
+        },
+        "createdAt": "2025-12-03T17:56:32Z",
+        "comments": {
+          "totalCount": 2
+        },
+        "labels": {
+          "nodes": [
+            {
+              "name": "RFC",
+              "color": "5319e7"
+            },
+            {
+              "name": "release: Major",
+              "color": "b60205"
+            },
+            {
+              "name": "Accepted",
+              "color": "0e8a16"
+            },
+            {
+              "name": "Tracking Issue",
+              "color": "2F4962"
+            },
+            {
+              "name": "Maintainers",
+              "color": "F23D06"
+            }
+          ]
+        }
+      },
+      {
+        "id": "I_kwDOA0FY3s7bMU5o",
+        "title": "[RFC]: Improve doctests for complex number instances in documentation examples (tracking issue)",
+        "url": "https://github.com/stdlib-js/stdlib/issues/8641",
+        "number": 8641,
+        "author": {
+          "login": "kgryte",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "url": "https://github.com/kgryte"
+        },
+        "createdAt": "2025-11-30T06:35:21Z",
+        "comments": {
+          "totalCount": 11
+        },
+        "labels": {
+          "nodes": [
+            {
+              "name": "RFC",
+              "color": "5319e7"
+            },
+            {
+              "name": "Documentation",
+              "color": "c2e0c6"
+            },
+            {
+              "name": "difficulty: 1",
+              "color": "2ED0FC"
+            },
+            {
+              "name": "Accepted",
+              "color": "0e8a16"
+            },
+            {
+              "name": "Good First Issue",
+              "color": "fbca04"
+            }
+          ]
+        }
+      }
+    ],
+    "commits": [
+      {
+        "id": "C_kwDOA0FY3toAKDM1YzU4NWM5YzQwYzY2Yjg4MWRmNDA1NzhhMTgzMzFiYWZjM2M0OGU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/35c585c9c40c66b881df40578a18331bafc3c48e",
+        "oid": "35c585c9c40c66b881df40578a18331bafc3c48e",
+        "messageHeadline": "refactor: use assertion utility",
+        "additions": 6,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T10:45:51Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDkzMzNmNzE3MzM3MDA3ZDE2MGNiNjZlNTdlN2E5N2Q0ZGEyZmYwYzA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9333f717337007d160cb66e57e7a97d4da2ff0c0",
+        "oid": "9333f717337007d160cb66e57e7a97d4da2ff0c0",
+        "messageHeadline": "test: add tests for DataType instances",
+        "additions": 69,
+        "deletions": 2,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T10:39:02Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDkyZTY2NTMyMzQ3MDgyZDM4Y2VmNTM4MWIxZTk3MzJhNGVmNGU4MjY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/92e66532347082d38cef5381b1e9732a4ef4e826",
+        "oid": "92e66532347082d38cef5381b1e9732a4ef4e826",
+        "messageHeadline": "chore: add missing Reviewed-by to Git note",
+        "additions": 1,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T06:13:12Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDIwZDI5ZWQzNDEwZjJmZjhmZjZiZmFkYmZiMGExZjVhNGI3ZTVmZGU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde",
+        "oid": "20d29ed3410f2ff8ff6bfadbfb0a1f5a4b7e5fde",
+        "messageHeadline": "fix: use `int8ndarray` type for alternative hypothesis param in `ndar…",
+        "additions": 4,
+        "deletions": 4,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T06:08:42Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDYyZDJmNDc4NTQ1ZWMyMjNjODFmNmQyMmIzNDU2YWM4ODMyOWIyOTg",
+        "url": "https://github.com/stdlib-js/stdlib/commit/62d2f478545ec223c81f6d22b3456ac88329b298",
+        "oid": "62d2f478545ec223c81f6d22b3456ac88329b298",
+        "messageHeadline": "chore: fix EditorConfig lint errors",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T06:05:50Z",
+        "author": {
+          "email": "divit26j@gmail.com",
+          "name": "DivitJain26",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/161949353?v=4",
+          "user": {
+            "login": "DivitJain26",
+            "url": "https://github.com/DivitJain26"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDkwOGI4YmJjOWFiYjY5MGMxMDM4ZDlhMzFlYjk5ZGMwNzk1ODQ2Njc",
+        "url": "https://github.com/stdlib-js/stdlib/commit/908b8bbc9abb690c1038d9a31eb99dc079584667",
+        "oid": "908b8bbc9abb690c1038d9a31eb99dc079584667",
+        "messageHeadline": "docs: update `ndarray` TypeScript declarations",
+        "additions": 2,
+        "deletions": 8,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T05:55:33Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDcyMTQ2NjgwMGQxOTQ3MDIwZWNiOGVlMTVmZjJkMzgxODQwYTY1ODE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/721466800d1947020ecb8ee15ff2d381840a6581",
+        "oid": "721466800d1947020ecb8ee15ff2d381840a6581",
+        "messageHeadline": "build: use heredoc format to preserve LaTeX escapes",
+        "additions": 3,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T05:52:59Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDg4MGJlOTBjNzg1NjUzNTVkNmU2NjE2ZGVmMTNjY2Y1MDM3ZmFlY2E",
+        "url": "https://github.com/stdlib-js/stdlib/commit/880be90c78565355d6e6616def13ccf5037faeca",
+        "oid": "880be90c78565355d6e6616def13ccf5037faeca",
+        "messageHeadline": "style: add missing spaces before closing bracket",
+        "additions": 4,
+        "deletions": 4,
+        "changedFilesIfAvailable": 4,
+        "committedDate": "2025-12-28T05:52:59Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDJhZTk5ZWY1N2EwOGI3MTJiYmU5MDM0MTA2M2RmMzA4NTQ5NTBlNDM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/2ae99ef57a08b712bbe90341063df30854950e43",
+        "oid": "2ae99ef57a08b712bbe90341063df30854950e43",
+        "messageHeadline": "docs: fix usage comments in scaffold scripts and indentation",
+        "additions": 87,
+        "deletions": 87,
+        "changedFilesIfAvailable": 15,
+        "committedDate": "2025-12-28T05:52:59Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGEyNWEzMzQ2YjBmOTlhMDI0NTkzMjFhYTg1MTUxYzdkNDI5ODZhODQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/a25a3346b0f99a02459321aa85151c7d42986a84",
+        "oid": "a25a3346b0f99a02459321aa85151c7d42986a84",
+        "messageHeadline": "build: remove AI scaffold script",
+        "additions": 0,
+        "deletions": 234,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T05:52:59Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGUxYmEzYjg2MTM4NGU5YmYyMGQ4YmVjMDNjMjljNmQ2M2Y2Y2FkZmE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/e1ba3b861384e9bf20d8bec03c29c6d63f6cadfa",
+        "oid": "e1ba3b861384e9bf20d8bec03c29c6d63f6cadfa",
+        "messageHeadline": "docs: update REPL namespace documentation",
+        "additions": 12,
+        "deletions": 12,
+        "changedFilesIfAvailable": 9,
+        "committedDate": "2025-12-28T05:52:27Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDI5MjZmY2RmNDE2NDhlMTQyMTliZjg2ODMzMjhiM2U2MzAyNjBjMmE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/2926fcdf41648e14219bf8683328b3e630260c2a",
+        "oid": "2926fcdf41648e14219bf8683328b3e630260c2a",
+        "messageHeadline": "feat: update `random` TypeScript declarations",
+        "additions": 238,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T05:49:33Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDM5NzcxMTk3Y2QzNWYyOGY5ODc0MGY5ODE4YTk3M2IwZTU1MWU1YWY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/39771197cd35f28f98740f9818a973b0e551e5af",
+        "oid": "39771197cd35f28f98740f9818a973b0e551e5af",
+        "messageHeadline": "test: fix broken test",
+        "additions": 23,
+        "deletions": 4,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T04:18:07Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDZjODg5OGQ5MWY5OGFiYTk4OTE0YzVhNTk2M2I0ZTNiMGNjMjQ4MTE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/6c8898d91f98aba98914c5a5963b4e3b0cc24811",
+        "oid": "6c8898d91f98aba98914c5a5963b4e3b0cc24811",
+        "messageHeadline": "test: add tests for DataType instances",
+        "additions": 33,
+        "deletions": 2,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T04:13:46Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGMwNTE4OTU5MzExZGJjYWQyMzE1M2IxNjEwMjM5ZTZjMTIxM2RhZjc",
+        "url": "https://github.com/stdlib-js/stdlib/commit/c0518959311dbcad23153b1610239e6c1213daf7",
+        "oid": "c0518959311dbcad23153b1610239e6c1213daf7",
+        "messageHeadline": "test: add tests for DataType instances",
+        "additions": 75,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T03:56:26Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDYyN2RhYTYwZjg1MzM3MGM4OGEzNWI5MTBlODQ1MDE3MDRhNTI2NzU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/627daa60f853370c88a35b910e84501704a52675",
+        "oid": "627daa60f853370c88a35b910e84501704a52675",
+        "messageHeadline": "test: add test cases for DataType instances",
+        "additions": 46,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T03:50:51Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGQzYTA1NDgwZTg3MmU3MDJkYjk2OGJiZTlmNGQzNjEwZThhZWQ1MGQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/d3a05480e872e702db968bbe9f4d3610e8aed50d",
+        "oid": "d3a05480e872e702db968bbe9f4d3610e8aed50d",
+        "messageHeadline": "test: add tests for DataType instances",
+        "additions": 114,
+        "deletions": 3,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-28T03:41:13Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDU0ZGVkYzg3NWI1OWJiYTEzZTIwYzcyYTgxZjI5YmNmNmRmNjUwYmU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/54dedc875b59bba13e20c72a81f29bcf6df650be",
+        "oid": "54dedc875b59bba13e20c72a81f29bcf6df650be",
+        "messageHeadline": "docs: update example",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T02:13:12Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDRhYmMxZTU4M2QyMTFkNzgzNWEzYzkxZTJiNWQxNTYxYTE2Mjg0ZTQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/4abc1e583d211d7835a3c91e2b5d1561a16284e4",
+        "oid": "4abc1e583d211d7835a3c91e2b5d1561a16284e4",
+        "messageHeadline": "docs: update example",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T02:12:53Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDhiNjdlNjU3MTg3MzQ2NTA0ZDk4NWFkN2I2Y2Q5NDE1ZjY1MTQ3MDU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/8b67e657187346504d985ad7b6cd9415f6514705",
+        "oid": "8b67e657187346504d985ad7b6cd9415f6514705",
+        "messageHeadline": "docs: update example",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T02:12:28Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDI5NzcwZmYyYTdhZjVjNGU3OWRmNDcyYTg0NjMwMGMwNDIwYjQ0YjA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/29770ff2a7af5c4e79df472a846300c0420b44b0",
+        "oid": "29770ff2a7af5c4e79df472a846300c0420b44b0",
+        "messageHeadline": "docs: update example",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T02:12:07Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDVkYTFlNGNiM2Q3NDVmYjk5ZDI0YWNiNGQ2OGI5ZGUxYmM0M2ZlZmM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/5da1e4cb3d745fb99d24acb4d68b9de1bc43fefc",
+        "oid": "5da1e4cb3d745fb99d24acb4d68b9de1bc43fefc",
+        "messageHeadline": "docs: fix description",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T02:06:53Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDIzZjk3NGZmYTU3MTc4MTExNjY4MDE3ZWRlNWU1ZDI5YWQxZGVmNjY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/23f974ffa57178111668017ede5e5d29ad1def66",
+        "oid": "23f974ffa57178111668017ede5e5d29ad1def66",
+        "messageHeadline": "docs: fix description",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T00:51:21Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDE2MzJiZGQyMDY0ZmQ5ZGNiMDdkNTcxOTFjOWJhYjc1ZDJmZmY0OTM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/1632bdd2064fd9dcb07d57191c9bab75d2fff493",
+        "oid": "1632bdd2064fd9dcb07d57191c9bab75d2fff493",
+        "messageHeadline": "build: add scaffold for unary PRNGs",
+        "additions": 5814,
+        "deletions": 0,
+        "changedFilesIfAvailable": 32,
+        "committedDate": "2025-12-28T00:40:25Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDdjZDcwMWRjOGJjZDZjNDM4ZDk5YmYxYzM1MWVmNWE3NjVlMGU2OTk",
+        "url": "https://github.com/stdlib-js/stdlib/commit/7cd701dc8bcd6c438d99bf1c351ef5a765e0e699",
+        "oid": "7cd701dc8bcd6c438d99bf1c351ef5a765e0e699",
+        "messageHeadline": "chore: update package meta data",
+        "additions": 1,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-28T00:38:07Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGQ4MGRmZTQxYTFlZjg3ZGE5ZmRmOGM0Y2I4OGMzMDM2MTM0ZmFhMmY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/d80dfe41a1ef87da9fdf8c4cb88c3036134faa2f",
+        "oid": "d80dfe41a1ef87da9fdf8c4cb88c3036134faa2f",
+        "messageHeadline": "docs: improve doctests for ndarray instances in `ndarray/any-by`",
+        "additions": 19,
+        "deletions": 72,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-27T21:57:19Z",
+        "author": {
+          "email": "bhatrr2021@gmail.com",
+          "name": "Rohit R Bhat",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/192968322?v=4",
+          "user": {
+            "login": "JavaTypedScript",
+            "url": "https://github.com/JavaTypedScript"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDc2MzE4MWRjNmM5ZjkzMGEwMTY1ZTkwZWE5ZjZhZjM5MDNmNmMwNGE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/763181dc6c9f930a0165e90ea9f6af3903f6c04a",
+        "oid": "763181dc6c9f930a0165e90ea9f6af3903f6c04a",
+        "messageHeadline": "docs: improve doctests for ndarray instances in `blas/ext/base/ndarra…",
+        "additions": 4,
+        "deletions": 20,
+        "changedFilesIfAvailable": 4,
+        "committedDate": "2025-12-27T21:53:30Z",
+        "author": {
+          "email": "161244282+sagar7162@users.noreply.github.com",
+          "name": "Sagar Ratna Chaudhary",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/161244282?v=4",
+          "user": {
+            "login": "sagar7162",
+            "url": "https://github.com/sagar7162"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDk3NGJkZWYwZDI4NmEzZDYxY2JiY2RlYTFhN2ExNjI1NTYwODU0MWI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/974bdef0d286a3d61cbbcdea1a7a16255608541b",
+        "oid": "974bdef0d286a3d61cbbcdea1a7a16255608541b",
+        "messageHeadline": "feat: add `t` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:23:00Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGZmN2NlMjZiMDRiNmNjNDc5NWFlODYxODk1OWE1YmE2NjM3MTliNmQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/ff7ce26b04b6cc4795ae8618959a5ba663719b6d",
+        "oid": "ff7ce26b04b6cc4795ae8618959a5ba663719b6d",
+        "messageHeadline": "feat: add `random/t`",
+        "additions": 5006,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:22:01Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDM2NDVlNmNiYjBiYTk2OTcwODZlZDE0ZmYxNWI1Mzg0N2M3ZGU0NDE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/3645e6cbb0ba9697086ed14ff15b53847c7de441",
+        "oid": "3645e6cbb0ba9697086ed14ff15b53847c7de441",
+        "messageHeadline": "feat: add `rayleigh` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:21:49Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGU0NDE0YzIwY2M1NzkyYjU2N2QzNTI5NzZmNDdkOGNmNDdlYzYwMzY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/e4414c20cc5792b567d352976f47d8cf47ec6036",
+        "oid": "e4414c20cc5792b567d352976f47d8cf47ec6036",
+        "messageHeadline": "feat: add `random/rayleigh`",
+        "additions": 5003,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:20:52Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDY2MmFmZjUxMmM3YTVjYzk3Mzc5YzFmZTlmYTQ3ZWViODgxNzgyOTM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/662aff512c7a5cc97379c1fe9fa47eeb88178293",
+        "oid": "662aff512c7a5cc97379c1fe9fa47eeb88178293",
+        "messageHeadline": "feat: add `poisson` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:20:41Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDMzMDc3NzljYWM4OGJhZWJlYjY3MDA5YzQ3ZTczZDlmMjMyYWQzMmE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/3307779cac88baebeb67009c47e73d9f232ad32a",
+        "oid": "3307779cac88baebeb67009c47e73d9f232ad32a",
+        "messageHeadline": "feat: add `random/poisson`",
+        "additions": 5003,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:19:43Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDQwM2NiYjJkNjJhNWYxZmMzZjdiYjE1OTRlZDcwNmYwNzY2ODQwZTI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/403cbb2d62a5f1fc3f7bb1594ed706f0766840e2",
+        "oid": "403cbb2d62a5f1fc3f7bb1594ed706f0766840e2",
+        "messageHeadline": "feat: add `geometric` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:19:30Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDc1ZDg1ZDc2OTA4MDU1YmQyNmRlOTg0ZDc3M2RiNjA0ZDcyMTBkYTU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/75d85d76908055bd26de984d773db604d7210da5",
+        "oid": "75d85d76908055bd26de984d773db604d7210da5",
+        "messageHeadline": "feat: add `random/geometric`",
+        "additions": 5003,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:18:33Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDlmODg2MDM5ZWYxMmVhYzgwNGM5ZWRkYmI2ZDEyMzNlYTlkMDI3NmM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9f886039ef12eac804c9eddbb6d1233ea9d0276c",
+        "oid": "9f886039ef12eac804c9eddbb6d1233ea9d0276c",
+        "messageHeadline": "feat: add `chisquare` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:18:21Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDQ2NzQ2MDYyNDFhMmE4MjM3ZDFhNDY3NmQ0ZDNlMWZkOWM0ZmNmMGQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/4674606241a2a8237d1a4676d4d3e1fd9c4fcf0d",
+        "oid": "4674606241a2a8237d1a4676d4d3e1fd9c4fcf0d",
+        "messageHeadline": "feat: add `random/chisquare`",
+        "additions": 5007,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:17:22Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGVmZmNlNzQzYjdkYzU3NDc5ODUwYTBhZjhkMGZlMmJhZWZiZDRlZjM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/effce743b7dc57479850a0af8d0fe2baefbd4ef3",
+        "oid": "effce743b7dc57479850a0af8d0fe2baefbd4ef3",
+        "messageHeadline": "feat: add `chi` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:17:07Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDBmN2VkMDNhNjhkYTZjMWM2M2I4NzgzM2JhYTdjMDVmZDJiYTU2ODc",
+        "url": "https://github.com/stdlib-js/stdlib/commit/0f7ed03a68da6c1c63b87833baa7c05fd2ba5687",
+        "oid": "0f7ed03a68da6c1c63b87833baa7c05fd2ba5687",
+        "messageHeadline": "feat: add `random/chi`",
+        "additions": 5002,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:16:09Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDZmMGRiODZlYTNiYmZjNGFkODNjZmE2ZDcxNjY4NDU1OTViZTRmNmU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/6f0db86ea3bbfc4ad83cfa6d7166845595be4f6e",
+        "oid": "6f0db86ea3bbfc4ad83cfa6d7166845595be4f6e",
+        "messageHeadline": "feat: add `bernoulli` to namespace",
+        "additions": 9,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T11:15:51Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDExYmI5M2QzYWNiNjc0ODQ2Yzc3YmVlMzhhNmU1NDY3NTU0OWI5MDA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/11bb93d3acb674846c77bee38a6e54675549b900",
+        "oid": "11bb93d3acb674846c77bee38a6e54675549b900",
+        "messageHeadline": "feat: add `random/bernoulli`",
+        "additions": 5002,
+        "deletions": 0,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:14:53Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDk0NDY0MTg2NjlmZGNhZTliOWI5YjliYTA1OTlhZWEzOGUyZTRmMjk",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9446418669fdcae9b9b9b9ba0599aea38e2e4f29",
+        "oid": "9446418669fdcae9b9b9b9ba0599aea38e2e4f29",
+        "messageHeadline": "chore: clean-up tests, benchmarks, and examples",
+        "additions": 124,
+        "deletions": 85,
+        "changedFilesIfAvailable": 21,
+        "committedDate": "2025-12-27T10:56:03Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGM0YjY0NDQ0MzMyMGE0MWIzMzQyYzllYzQ5ZGRjNzhhNDI2NTdiODI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/c4b644443320a41b3342c9ec49ddc78a42657b82",
+        "oid": "c4b644443320a41b3342c9ec49ddc78a42657b82",
+        "messageHeadline": "test: serialize returned dtype to string and fix defaults",
+        "additions": 35,
+        "deletions": 35,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-27T10:47:32Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDI4ZTAzZjA4MWNhZjQ1Njk1Yzk0MWE4YzJlMjc5YjZlYWIxODk0NjA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/28e03f081caf45695c941a8c2e279b6eab189460",
+        "oid": "28e03f081caf45695c941a8c2e279b6eab189460",
+        "messageHeadline": "test: serialize returned dtype to string",
+        "additions": 726,
+        "deletions": 726,
+        "changedFilesIfAvailable": 44,
+        "committedDate": "2025-12-27T10:45:14Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGU2Y2MwYzVhYTQxYzBlMDkzMzQ2ODI5ZDgyZTBmYmFjN2RhMGYyNzY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/e6cc0c5aa41c0e093346829d82e0fbac7da0f276",
+        "oid": "e6cc0c5aa41c0e093346829d82e0fbac7da0f276",
+        "messageHeadline": "remove: remove `utils/common-keys-in`",
+        "additions": 0,
+        "deletions": 1013,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-27T09:59:58Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDU4OGQ1YmI5ZTc3N2QzMWExYTIxYjc1NGI4NTZjNzY3NGRmN2QxN2I",
+        "url": "https://github.com/stdlib-js/stdlib/commit/588d5bb9e777d31a1a21b754b856c7674df7d17b",
+        "oid": "588d5bb9e777d31a1a21b754b856c7674df7d17b",
+        "messageHeadline": "refactor: update paths",
+        "additions": 9,
+        "deletions": 9,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-27T09:59:58Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDBlM2M1Y2VlMGYxNDEzZjU0YTYyYzc3YTg3YjY0ZDY2MzQ3MDA0MjQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/0e3c5cee0f1413f54a62c77a87b64d6634700424",
+        "oid": "0e3c5cee0f1413f54a62c77a87b64d6634700424",
+        "messageHeadline": "remove: remove `commonKeysIn` from namespace",
+        "additions": 0,
+        "deletions": 54,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T09:59:58Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDhjOTk3Y2E1MTZhODUxY2MwY2ZlODU0YmRjMmYxOWVmNmNjZmMwYzE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/8c997ca516a851cc0cfe854bdc2f19ef6ccfc0c1",
+        "oid": "8c997ca516a851cc0cfe854bdc2f19ef6ccfc0c1",
+        "messageHeadline": "feat: add `object/common-keys-in`",
+        "additions": 1013,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-27T09:59:58Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDI2Mzc4MzUzNDIyOGE0NzMyMzcyMGIwMWExMGI0M2E2ZDM5YTJlMmY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/263783534228a47323720b01a10b43a6d39a2e2f",
+        "oid": "263783534228a47323720b01a10b43a6d39a2e2f",
+        "messageHeadline": "docs: use consistent markup",
+        "additions": 2,
+        "deletions": 2,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T08:56:03Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDc3YWY2N2M0MmZkOGZhMDRkOTViMDMyYmZhOWEyNTRkMjI5Y2Q3MDA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/77af67c42fd8fa04d95b032bfa9a254d229cd700",
+        "oid": "77af67c42fd8fa04d95b032bfa9a254d229cd700",
+        "messageHeadline": "docs: fix missing decimals and use consistent spacing",
+        "additions": 4,
+        "deletions": 4,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T08:42:51Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDQ1MjY0ZDAzODc1MDlhMTg4NTZjMjFjMzMyMzQ5ZjE2YzhhODEwODY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/45264d0387509a18856c21c332349f16c8a81086",
+        "oid": "45264d0387509a18856c21c332349f16c8a81086",
+        "messageHeadline": "docs: improve doctests for ndarray instances in `ndarray/some`",
+        "additions": 16,
+        "deletions": 66,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-27T08:28:48Z",
+        "author": {
+          "email": "techs308@gmail.com",
+          "name": "kaushal-kumar-it",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/176749904?v=4",
+          "user": {
+            "login": "kaushal-kumar-it",
+            "url": "https://github.com/kaushal-kumar-it"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGJkNTZhZmJlNzU3Mzc5YzkzNWJlMjU1NzA3YjhjMzJkMDI5NDE1NDU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/bd56afbe757379c935be255707b8c32d02941545",
+        "oid": "bd56afbe757379c935be255707b8c32d02941545",
+        "messageHeadline": "chore: add Git notes",
+        "additions": 26,
+        "deletions": 0,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-27T05:51:34Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDYyNmYzMWU1ZjdhYTQwZDBkYzY0ZjQ4ZmEzYjljNGY4N2Y5YmYzMGM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c",
+        "oid": "626f31e5f7aa40d0dc64f48fa3b9c4f87f9bf30c",
+        "messageHeadline": "feat!: update `ndarray/base` TypeScript declarations",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T03:43:08Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDE2ZWVlODIwYzdiYTFhZTI2Yjg2ZDIzNDAxNjMyZGM0NGNhZTQzMjI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/16eee820c7ba1ae26b86d23401632dc44cae4322",
+        "oid": "16eee820c7ba1ae26b86d23401632dc44cae4322",
+        "messageHeadline": "docs: update REPL namespace documentation",
+        "additions": 16,
+        "deletions": 16,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-27T03:38:48Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDMxMmQwMzAxMDQ5MGFmOTJkMmMwZDE2MGVmOTZkZTAzMzFmYTdmMjU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/312d03010490af92d2c0d160ef96de0331fa7f25",
+        "oid": "312d03010490af92d2c0d160ef96de0331fa7f25",
+        "messageHeadline": "docs: fix comment",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T02:17:14Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDliYjZhNGNlOGQyY2QwOTA2MTkyOWQ4YmNhZjQ4ZDEzNjhhNmEzYTY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9bb6a4ce8d2cd09061929d8bcaf48d1368a6a3a6",
+        "oid": "9bb6a4ce8d2cd09061929d8bcaf48d1368a6a3a6",
+        "messageHeadline": "build: use heredoc format to preserve LaTeX escapes in PR coverage co…",
+        "additions": 5,
+        "deletions": 2,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T01:44:04Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGNiNGVlOTI2MGJmZDI0YmM3YmFhMGIwOTgzODJkMzkzZTg4OWRmZDY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/cb4ee9260bfd24bc7baa0b098382d393e889dfd6",
+        "oid": "cb4ee9260bfd24bc7baa0b098382d393e889dfd6",
+        "messageHeadline": "docs: update JSDoc examples to use `console.error` instead of throwin…",
+        "additions": 21,
+        "deletions": 19,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-27T01:28:26Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGRhMDRlM2YzZDExODYzMmE1Nzk3YTIxMzIyNzFkZGJlMDJlYjNiOGY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/da04e3f3d118632a5797a2132271ddbe02eb3b8f",
+        "oid": "da04e3f3d118632a5797a2132271ddbe02eb3b8f",
+        "messageHeadline": "build: set GPG import workdir to coverage repository path",
+        "additions": 1,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T01:15:33Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGFkYWEwZTk1Nzg5YzRhYzlmMTRmZGRhYjQyMjg4OGQ2ODAzMjNlZmY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/adaa0e95789c4ac9f14fddab422888d680323eff",
+        "oid": "adaa0e95789c4ac9f14fddab422888d680323eff",
+        "messageHeadline": "feat: `add constants/float16/nan`",
+        "additions": 328,
+        "deletions": 0,
+        "changedFilesIfAvailable": 8,
+        "committedDate": "2025-12-27T01:13:26Z",
+        "author": {
+          "email": "de.la.cruz.01012006@gmail.com",
+          "name": "Md Aqudam Azimee",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/185831441?v=4",
+          "user": {
+            "login": "GlyphicGuy",
+            "url": "https://github.com/GlyphicGuy"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGY0MGYzZWQzNjE0ZGUyMDcyMjU2ODY3NzJjNzg1OGM2NDUxMGQxZmI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/f40f3ed3614de207225686772c7858c64510d1fb",
+        "oid": "f40f3ed3614de207225686772c7858c64510d1fb",
+        "messageHeadline": "docs: fix parameter description",
+        "additions": 4,
+        "deletions": 4,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T00:56:00Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGUzYzg3NzNmNjZlZmQ5YjUwMDQ3MTFjZmQ4YTE1ZjUxMjliODU3MWE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/e3c8773f66efd9b5004711cfd8a15f5129b8571a",
+        "oid": "e3c8773f66efd9b5004711cfd8a15f5129b8571a",
+        "messageHeadline": "test: fix description",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T00:56:00Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDZjZTAyNzVkM2VlYzU5OGNlM2VjYjhkYTc0YTFjODJmMGRlM2E0ODI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482",
+        "oid": "6ce0275d3eec598ce3ecb8da74a1c82f0de3a482",
+        "messageHeadline": "docs: remove incorrect hyphens from JSDoc `returns` annotations",
+        "additions": 11,
+        "deletions": 11,
+        "changedFilesIfAvailable": 8,
+        "committedDate": "2025-12-27T00:56:00Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGY0MTE3MTJlYTAwNDdkMWFjYTU3OTlkYzU2OTkxYzg1YzdlOTM0NjM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/f411712ea0047d1aca5799dc56991c85c7e93463",
+        "oid": "f411712ea0047d1aca5799dc56991c85c7e93463",
+        "messageHeadline": "build: use secure two-workflow pattern for PR test coverage",
+        "additions": 413,
+        "deletions": 118,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-27T00:55:59Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGMxN2I0MTFhYTY4ZTM5ODAwYzc3MTNiZmZhZDNlOWRlOGFhZDc5Yjc",
+        "url": "https://github.com/stdlib-js/stdlib/commit/c17b411aa68e39800c7713bffad3e9de8aad79b7",
+        "oid": "c17b411aa68e39800c7713bffad3e9de8aad79b7",
+        "messageHeadline": "docs: split up into multiple examples",
+        "additions": 11,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T00:55:59Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGU4NzA3ZDRhZDczMGI1ZTRiMzQ2ZjE3ZmQwNDVlZDdlYTNjZWZiODM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/e8707d4ad730b5e4b346f17fd045ed7ea3cefb83",
+        "oid": "e8707d4ad730b5e4b346f17fd045ed7ea3cefb83",
+        "messageHeadline": "chore: fix JavaScript lint errors",
+        "additions": 2,
+        "deletions": 3,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-27T00:54:30Z",
+        "author": {
+          "email": "85477603+t-sibiraj@users.noreply.github.com",
+          "name": "Sibi",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/85477603?v=4",
+          "user": {
+            "login": "t-sibiraj",
+            "url": "https://github.com/t-sibiraj"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDc5ZjYyZjA2ZDE1ZGZiYWRjYTU2MDM0NWY5ODU3ZDczNjc3MTdjMjU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/79f62f06d15dfbadca560345f9857d7367717c25",
+        "oid": "79f62f06d15dfbadca560345f9857d7367717c25",
+        "messageHeadline": "feat: add `number/float16/base/mul`",
+        "additions": 740,
+        "deletions": 0,
+        "changedFilesIfAvailable": 10,
+        "committedDate": "2025-12-27T00:30:48Z",
+        "author": {
+          "email": "161244282+sagar7162@users.noreply.github.com",
+          "name": "Sagar Ratna Chaudhary",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/161244282?v=4",
+          "user": {
+            "login": "sagar7162",
+            "url": "https://github.com/sagar7162"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDdiZTMyMzVmNThkYWI2ZjVhNWFjMTFhNThkZGFkOGQ1YmEyZmNiMWE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a",
+        "oid": "7be3235f58dab6f5a5ac11a58ddad8d5ba2fcb1a",
+        "messageHeadline": "feat: add `stats/strided/distances/dcosine-similarity`",
+        "additions": 3930,
+        "deletions": 0,
+        "changedFilesIfAvailable": 33,
+        "committedDate": "2025-12-27T00:30:15Z",
+        "author": {
+          "email": "nakulkrishnakumar86@gmail.com",
+          "name": "Nakul Krishnakumar",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/93001503?v=4",
+          "user": {
+            "login": "nakul-krishnakumar",
+            "url": "https://github.com/nakul-krishnakumar"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDg0NmNmZDI1YTBhYjdlYjdjMDdhMWE0N2YzYTY0NGIxZTAxMDc0ZDA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/846cfd25a0ab7eb7c07a1a47f3a644b1e01074d0",
+        "oid": "846cfd25a0ab7eb7c07a1a47f3a644b1e01074d0",
+        "messageHeadline": "feat: add `number/float16/base/ulp-difference`",
+        "additions": 748,
+        "deletions": 0,
+        "changedFilesIfAvailable": 10,
+        "committedDate": "2025-12-26T23:11:45Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "Neeraj Pathak",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDllNWIxZGJjYjVjMTIyYWM0NjA1MDdhYTg4OWExNzFhOGY2N2JkMmU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9e5b1dbcb5c122ac460507aa889a171a8f67bd2e",
+        "oid": "9e5b1dbcb5c122ac460507aa889a171a8f67bd2e",
+        "messageHeadline": "feat: add `stats/base/ndarray/stdevpn`",
+        "additions": 985,
+        "deletions": 0,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-26T22:36:45Z",
+        "author": {
+          "email": "bhagwatpratik781@gmail.com",
+          "name": "Pratik",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/196821787?v=4",
+          "user": {
+            "login": "iampratik13",
+            "url": "https://github.com/iampratik13"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDlhNDRmMWFjOGE5NDU0OTBiODcwM2Y1MmMzMmYzYWFlZjNhZTEyODM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9a44f1ac8a945490b8703f52c32f3aaef3ae1283",
+        "oid": "9a44f1ac8a945490b8703f52c32f3aaef3ae1283",
+        "messageHeadline": "feat: add `stats/base/ndarray/stdevtk`",
+        "additions": 982,
+        "deletions": 0,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-26T22:33:08Z",
+        "author": {
+          "email": "bhagwatpratik781@gmail.com",
+          "name": "Pratik",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/196821787?v=4",
+          "user": {
+            "login": "iampratik13",
+            "url": "https://github.com/iampratik13"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGQ2ODdkZmIyYzVmYTA4OWI5NDJmM2E1NmFkNjY4YWUxNWVhNGVlYzM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/d687dfb2c5fa089b942f3a56ad668ae15ea4eec3",
+        "oid": "d687dfb2c5fa089b942f3a56ad668ae15ea4eec3",
+        "messageHeadline": "feat: add `stats/base/ndarray/sstdevch`",
+        "additions": 996,
+        "deletions": 0,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-26T22:03:40Z",
+        "author": {
+          "email": "kaustubh.mp007@gmail.com",
+          "name": "Kaustubh Patange",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/179794912?v=4",
+          "user": {
+            "login": "MeKaustubh07",
+            "url": "https://github.com/MeKaustubh07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDllODk5NDY4MzJkNTdiYjYyOTg1ODU2MTU0MDMyZjc5YmU3ZWM2OTU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9e89946832d57bb62985856154032f79be7ec695",
+        "oid": "9e89946832d57bb62985856154032f79be7ec695",
+        "messageHeadline": "feat: add `stats/base/ndarray/stdevwd`",
+        "additions": 985,
+        "deletions": 0,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-26T21:56:34Z",
+        "author": {
+          "email": "bhagwatpratik781@gmail.com",
+          "name": "Pratik",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/196821787?v=4",
+          "user": {
+            "login": "iampratik13",
+            "url": "https://github.com/iampratik13"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDlmZTZmY2YwMDRlMGM3YmY1MWI1M2YyNDBlN2Y5ZWZiNmM3ZWQ5NTQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/9fe6fcf004e0c7bf51b53f240e7f9efb6c7ed954",
+        "oid": "9fe6fcf004e0c7bf51b53f240e7f9efb6c7ed954",
+        "messageHeadline": "feat: add C implementation for `number/float16/base/from-word`",
+        "additions": 1497,
+        "deletions": 3,
+        "changedFilesIfAvailable": 17,
+        "committedDate": "2025-12-26T21:56:15Z",
+        "author": {
+          "email": "143020143+gururaj1512@users.noreply.github.com",
+          "name": "Gururaj Gurram",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/143020143?v=4",
+          "user": {
+            "login": "gururaj1512",
+            "url": "https://github.com/gururaj1512"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDhlZjgyMGQ1ODMzMWMxZjU5NDg2YTZlYjRhNjYxOGEzZjA5NTQyN2Y",
+        "url": "https://github.com/stdlib-js/stdlib/commit/8ef820d58331c1f59486a6eb4a6618a3f095427f",
+        "oid": "8ef820d58331c1f59486a6eb4a6618a3f095427f",
+        "messageHeadline": "remove: remove `utils/common-keys`",
+        "additions": 0,
+        "deletions": 976,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T21:41:12Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGVhMDI4YTg5YTA1MDZkYzA0M2U1NGRlNjk0ODM2NTdmNDQ0M2QxNzU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/ea028a89a0506dc043e54de69483657f4443d175",
+        "oid": "ea028a89a0506dc043e54de69483657f4443d175",
+        "messageHeadline": "refactor: update paths",
+        "additions": 9,
+        "deletions": 9,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-26T21:41:12Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDNkMzZjZmU3MGVlMDJjZGUxMTQ2MjY5MTdhMjIwZTgyMzZkODgxMmE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/3d36cfe70ee02cde114626917a220e8236d8812a",
+        "oid": "3d36cfe70ee02cde114626917a220e8236d8812a",
+        "messageHeadline": "remove: remove `commonKeys` from namespace",
+        "additions": 0,
+        "deletions": 54,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-26T21:41:12Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDhiOWRiNDkzYmE0NDBlODdhNDlhZTAxOGNiMmI4MDA2N2FlMTY4MTE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/8b9db493ba440e87a49ae018cb2b80067ae16811",
+        "oid": "8b9db493ba440e87a49ae018cb2b80067ae16811",
+        "messageHeadline": "feat: add `object/common-keys`",
+        "additions": 976,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T21:41:12Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDdmNTExMzI1ZGFjZmZmYzU4MWI0OWJkNmQzZDRjNWEwMzVjMTY3ZDg",
+        "url": "https://github.com/stdlib-js/stdlib/commit/7f511325dacfffc581b49bd6d3d4c5a035c167d8",
+        "oid": "7f511325dacfffc581b49bd6d3d4c5a035c167d8",
+        "messageHeadline": "docs: improve doctests for ndarray instances in `stats/maxsorted`",
+        "additions": 19,
+        "deletions": 69,
+        "changedFilesIfAvailable": 5,
+        "committedDate": "2025-12-26T21:30:17Z",
+        "author": {
+          "email": "shivammittal42006@gmail.com",
+          "name": "Shivam Mittal",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/184618879?v=4",
+          "user": {
+            "login": "shiavm006",
+            "url": "https://github.com/shiavm006"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDgyNTczOGFiOTE3NzI2ZDEwZmUzMDgyNTY5Mzg3ODYxY2VlOTY0Y2M",
+        "url": "https://github.com/stdlib-js/stdlib/commit/825738ab917726d10fe3082569387861cee964cc",
+        "oid": "825738ab917726d10fe3082569387861cee964cc",
+        "messageHeadline": "bench: use correct variable name in benchmark for `number/float32/bas…",
+        "additions": 1,
+        "deletions": 1,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-26T20:35:10Z",
+        "author": {
+          "email": "144821218+Erennn7@users.noreply.github.com",
+          "name": "Samarth Kolarkar",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/144821218?v=4",
+          "user": {
+            "login": "Erennn7",
+            "url": "https://github.com/Erennn7"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDM0NWM3NDA0NTMwZjhjNWJhNzIxNWJmZTZlMjVjYzVlNGEwYWY2NDA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/345c7404530f8c5ba7215bfe6e25cc5e4a0af640",
+        "oid": "345c7404530f8c5ba7215bfe6e25cc5e4a0af640",
+        "messageHeadline": "docs: improve doctests for ndarray instances in `ndarray/count-falsy`",
+        "additions": 1,
+        "deletions": 3,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-26T20:34:44Z",
+        "author": {
+          "email": "techs308@gmail.com",
+          "name": "kaushal-kumar-it",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/176749904?v=4",
+          "user": {
+            "login": "kaushal-kumar-it",
+            "url": "https://github.com/kaushal-kumar-it"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGU4OGY4MGRiZmQ2NTE0ZTk5NDlmN2I1MjNlNzAzYTk2MmM3ODAyNzM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/e88f80dbfd6514e9949f7b523e703a962c780273",
+        "oid": "e88f80dbfd6514e9949f7b523e703a962c780273",
+        "messageHeadline": "feat: add `stats/strided/dnanmidrange`",
+        "additions": 3562,
+        "deletions": 0,
+        "changedFilesIfAvailable": 33,
+        "committedDate": "2025-12-26T10:11:14Z",
+        "author": {
+          "email": "151670745+Orthodox-64@users.noreply.github.com",
+          "name": "Sachin Pangal",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/151670745?v=4",
+          "user": {
+            "login": "Orthodox-64",
+            "url": "https://github.com/Orthodox-64"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDY1NWRmMjBjMGEzODBlYjNkNzcyNjRmNTk2OWI2YjRmNDk2ZDI0NmY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/655df20c0a380eb3d77264f5969b6b4f496d246f",
+        "oid": "655df20c0a380eb3d77264f5969b6b4f496d246f",
+        "messageHeadline": "feat: add `number/float16/base/to-float64`",
+        "additions": 2287,
+        "deletions": 0,
+        "changedFilesIfAvailable": 36,
+        "committedDate": "2025-12-26T10:06:39Z",
+        "author": {
+          "email": "143020143+gururaj1512@users.noreply.github.com",
+          "name": "Gururaj Gurram",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/143020143?v=4",
+          "user": {
+            "login": "gururaj1512",
+            "url": "https://github.com/gururaj1512"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGI2ZGI3MjIxMzEwZjE3NjU2NGZhYWY2ZDM1NDg2MTJjNTY2NzU0Njg",
+        "url": "https://github.com/stdlib-js/stdlib/commit/b6db7221310f176564faaf6d3548612c56675468",
+        "oid": "b6db7221310f176564faaf6d3548612c56675468",
+        "messageHeadline": "feat: add `number/float16/base/significand`",
+        "additions": 2002,
+        "deletions": 0,
+        "changedFilesIfAvailable": 24,
+        "committedDate": "2025-12-26T09:39:58Z",
+        "author": {
+          "email": "143020143+gururaj1512@users.noreply.github.com",
+          "name": "Gururaj Gurram",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/143020143?v=4",
+          "user": {
+            "login": "gururaj1512",
+            "url": "https://github.com/gururaj1512"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDI4OWFkZjQ5NWE5YTljZDI5MDhjZjc2MjI0MjhmOTQyN2NiOGQyNDA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/289adf495a9a9cd2908cf7622428f9427cb8d240",
+        "oid": "289adf495a9a9cd2908cf7622428f9427cb8d240",
+        "messageHeadline": "feat: add `number/float16/base/to-float32`",
+        "additions": 2378,
+        "deletions": 0,
+        "changedFilesIfAvailable": 36,
+        "committedDate": "2025-12-26T09:36:21Z",
+        "author": {
+          "email": "143020143+gururaj1512@users.noreply.github.com",
+          "name": "Gururaj Gurram",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/143020143?v=4",
+          "user": {
+            "login": "gururaj1512",
+            "url": "https://github.com/gururaj1512"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGZjZDk0NjM5MTljYmVmYTEyMGFjMDdmMjc0ZmJiMzVmYWIyMmMxNDY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/fcd9463919cbefa120ac07f274fbb35fab22c146",
+        "oid": "fcd9463919cbefa120ac07f274fbb35fab22c146",
+        "messageHeadline": "feat: add `number/float16/base/from-binary-string`",
+        "additions": 967,
+        "deletions": 0,
+        "changedFilesIfAvailable": 17,
+        "committedDate": "2025-12-26T09:09:06Z",
+        "author": {
+          "email": "144821218+Erennn7@users.noreply.github.com",
+          "name": "Samarth Kolarkar",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/144821218?v=4",
+          "user": {
+            "login": "Erennn7",
+            "url": "https://github.com/Erennn7"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDE1NDY2NWJjNDEwOTUwZTUyNGRmOGQ4YWFmNjg1NjYyMzhmOTgyZGY",
+        "url": "https://github.com/stdlib-js/stdlib/commit/154665bc410950e524df8d8aaf68566238f982df",
+        "oid": "154665bc410950e524df8d8aaf68566238f982df",
+        "messageHeadline": "build: skip coverage workflow on push for forks",
+        "additions": 4,
+        "deletions": 2,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-26T05:52:03Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGRhZjJjYzg0N2M3NzExN2Y0YzVhZTRlNWU5OWFlMjI0YmI1OTJlZGM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/daf2cc847c77117f4c5ae4e5e99ae224bb592edc",
+        "oid": "daf2cc847c77117f4c5ae4e5e99ae224bb592edc",
+        "messageHeadline": "refactor: add writable parameter to `ndarray/base/spread-dimensions`",
+        "additions": 173,
+        "deletions": 142,
+        "changedFilesIfAvailable": 23,
+        "committedDate": "2025-12-26T05:36:11Z",
+        "author": {
+          "email": "101793258+headlessNode@users.noreply.github.com",
+          "name": "Muhammad Haris",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/101793258?v=4",
+          "user": {
+            "login": "headlessNode",
+            "url": "https://github.com/headlessNode"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDgwMDY2NTI2NWU4NzQ1M2QyNzU3MzUwNmQxZTVmM2M1MGU0NTg5MjA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/800665265e87453d27573506d1e5f3c50e458920",
+        "oid": "800665265e87453d27573506d1e5f3c50e458920",
+        "messageHeadline": "chore: fix C lint errors",
+        "additions": 3,
+        "deletions": 3,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-26T05:04:54Z",
+        "author": {
+          "email": "geodaoyu@foxmail.com",
+          "name": "GeoDaoyu",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/34641603?v=4",
+          "user": {
+            "login": "GeoDaoyu",
+            "url": "https://github.com/GeoDaoyu"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGY0MmM1NjllMjE2NGUxNzYxNDZmYmFhODhlMmI0OWI3MjFkMmQ0YTI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/f42c569e2164e176146fbaa88e2b49b721d2d4a2",
+        "oid": "f42c569e2164e176146fbaa88e2b49b721d2d4a2",
+        "messageHeadline": "remove: remove `utils/for-own`",
+        "additions": 0,
+        "deletions": 932,
+        "changedFilesIfAvailable": 10,
+        "committedDate": "2025-12-26T04:34:23Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDdkNGUyOGRiNDI2MGM4YTUyMWJkMTA0ZjE3MTgzYjI0NjIyMDVlNDE",
+        "url": "https://github.com/stdlib-js/stdlib/commit/7d4e28db4260c8a521bd104f17183b2462205e41",
+        "oid": "7d4e28db4260c8a521bd104f17183b2462205e41",
+        "messageHeadline": "refactor: update paths",
+        "additions": 12,
+        "deletions": 12,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-26T04:34:23Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDUyOTQ2NjNmNWJmNTUyNmQ4MTg4YmI5YjBmOTU4NDUxY2JhMmQ1NTk",
+        "url": "https://github.com/stdlib-js/stdlib/commit/5294663f5bf5526d8188bb9b0f958451cba2d559",
+        "oid": "5294663f5bf5526d8188bb9b0f958451cba2d559",
+        "messageHeadline": "remove: remove `forOwn` from namespace",
+        "additions": 0,
+        "deletions": 49,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-26T04:34:23Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDM0ZjNmZDc0NjZhYzRjYTNkMzM4NjI3NDg4YWM2ODIzOTNlNTk3NDI",
+        "url": "https://github.com/stdlib-js/stdlib/commit/34f3fd7466ac4ca3d338627488ac682393e59742",
+        "oid": "34f3fd7466ac4ca3d338627488ac682393e59742",
+        "messageHeadline": "feat: add `object/for-own`",
+        "additions": 932,
+        "deletions": 0,
+        "changedFilesIfAvailable": 10,
+        "committedDate": "2025-12-26T04:34:23Z",
+        "author": {
+          "email": "neerajrpathak710@gmail.com",
+          "name": "NEERAJ",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?v=4",
+          "user": {
+            "login": "Neerajpathak07",
+            "url": "https://github.com/Neerajpathak07"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDIzNWE3NTJhMmQxMmIyMjU4OWIyNGE4OWU2MDc3YTRjNzM5MDM0NjQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/235a752a2d12b22589b24a89e6077a4c73903464",
+        "oid": "235a752a2d12b22589b24a89e6077a4c73903464",
+        "messageHeadline": "docs: update REPL namespace documentation",
+        "additions": 14,
+        "deletions": 14,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T04:31:37Z",
+        "author": {
+          "email": "82920195+stdlib-bot@users.noreply.github.com",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGVkZTYyY2E1N2FkMmYzNTVkM2Y5YzE5YTdkYTJlOTMwZDVkMDZjMDg",
+        "url": "https://github.com/stdlib-js/stdlib/commit/ede62ca57ad2f355d3f9c19a7da2e930d5d06c08",
+        "oid": "ede62ca57ad2f355d3f9c19a7da2e930d5d06c08",
+        "messageHeadline": "build: only run workflows on main repo",
+        "additions": 8,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T19:06:14Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGIyNTZkNjRhNzI3ZWEwYTI2NmU4ZmFlNmZmYWNkNTE5YjU1YWJkYjA",
+        "url": "https://github.com/stdlib-js/stdlib/commit/b256d64a727ea0a266e8fae6ffacd519b55abdb0",
+        "oid": "b256d64a727ea0a266e8fae6ffacd519b55abdb0",
+        "messageHeadline": "test: add test for negative zero",
+        "additions": 5,
+        "deletions": 0,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-25T18:58:07Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDU0YjgwNGJiYTU1ZDAwNDUxMTdmNDhiMjY3Y2FlOTFkZTBkOWRhOGQ",
+        "url": "https://github.com/stdlib-js/stdlib/commit/54b804bba55d0045117f48b267cae91de0d9da8d",
+        "oid": "54b804bba55d0045117f48b267cae91de0d9da8d",
+        "messageHeadline": "chore: fix spacing",
+        "additions": 2,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T18:57:45Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDE4NmY5MTJjNzkyY2FiNDM0OWI2Mzk2NDk0YzMxMDZmYzJhZjg4NjU",
+        "url": "https://github.com/stdlib-js/stdlib/commit/186f912c792cab4349b6396494c3106fc2af8865",
+        "oid": "186f912c792cab4349b6396494c3106fc2af8865",
+        "messageHeadline": "test: use float32 packages",
+        "additions": 3,
+        "deletions": 3,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-25T18:57:03Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKGRkYWM0NDY2YmY4ODUxODY1ZThmMDI2MGExNTYyYzZkYjcwNzc0ZDg",
+        "url": "https://github.com/stdlib-js/stdlib/commit/ddac4466bf8851865e8f0260a1562c6db70774d8",
+        "oid": "ddac4466bf8851865e8f0260a1562c6db70774d8",
+        "messageHeadline": "test: pass in missing argument",
+        "additions": 9,
+        "deletions": 9,
+        "changedFilesIfAvailable": 1,
+        "committedDate": "2025-12-25T18:56:44Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDY4M2UzNDIyM2QyODJjOTAyMTMwM2QwYTU3YzA3Y2ZmZGM0MzEzOTc",
+        "url": "https://github.com/stdlib-js/stdlib/commit/683e34223d282c9021303d0a57c07cffdc431397",
+        "oid": "683e34223d282c9021303d0a57c07cffdc431397",
+        "messageHeadline": "bench: add missing :ndarray",
+        "additions": 2,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T18:56:14Z",
+        "author": {
+          "email": "pburckhardt@outlook.com",
+          "name": "Philipp Burckhardt",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/1913638?v=4",
+          "user": {
+            "login": "Planeshifter",
+            "url": "https://github.com/Planeshifter"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOA0FY3toAKDQ4YzNjMzJlZDc4ZThjYWQ3YjI3MTlmMmIyYTAzMjhhNjZlMWM5ZTM",
+        "url": "https://github.com/stdlib-js/stdlib/commit/48c3c32ed78e8cad7b2719f2b2a0328a66e1c9e3",
+        "oid": "48c3c32ed78e8cad7b2719f2b2a0328a66e1c9e3",
+        "messageHeadline": "feat: add `ndarray/unshift`",
+        "additions": 1579,
+        "deletions": 0,
+        "changedFilesIfAvailable": 14,
+        "committedDate": "2025-12-25T09:52:34Z",
+        "author": {
+          "email": "101793258+headlessNode@users.noreply.github.com",
+          "name": "Muhammad Haris",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/101793258?v=4",
+          "user": {
+            "login": "headlessNode",
+            "url": "https://github.com/headlessNode"
+          }
+        }
+      }
+    ],
+    "pullRequests": [
+      {
+        "id": "PR_kwDOA0FY3s66vN2B",
+        "number": 9415,
+        "title": "chore: fix JavaScript lint errors (issue #9403)",
+        "url": "https://github.com/stdlib-js/stdlib/pull/9415",
+        "state": "OPEN",
+        "createdAt": "2025-12-28T12:57:04Z",
+        "mergedAt": null,
+        "author": {
+          "login": "agananya03",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/191767925?u=b52e9bf98870ca652674833d15b0b82c2e7c44ee&v=4",
+          "url": "https://github.com/agananya03"
+        },
+        "comments": {
+          "totalCount": 7
+        },
+        "mergedBy": null,
+        "additions": 12,
+        "deletions": 11,
+        "changedFiles": 3
+      },
+      {
+        "id": "PR_kwDOA0FY3s66vFNO",
+        "number": 9414,
+        "title": "docs: improve doctests for ndarray instances in",
+        "url": "https://github.com/stdlib-js/stdlib/pull/9414",
+        "state": "OPEN",
+        "createdAt": "2025-12-28T11:55:06Z",
+        "mergedAt": null,
+        "author": {
+          "login": "GlyphicGuy",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/185831441?v=4",
+          "url": "https://github.com/GlyphicGuy"
+        },
+        "comments": {
+          "totalCount": 1
+        },
+        "mergedBy": null,
+        "additions": 11,
+        "deletions": 43,
+        "changedFiles": 6
+      },
+      {
+        "id": "PR_kwDOA0FY3s66vErM",
+        "number": 9413,
+        "title": "feat!: migrate `utils/object-inverse-by` to `object/inverse-by`",
+        "url": "https://github.com/stdlib-js/stdlib/pull/9413",
+        "state": "OPEN",
+        "createdAt": "2025-12-28T11:51:04Z",
+        "mergedAt": null,
+        "author": {
+          "login": "Neerajpathak07",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?u=371d6e077cb643377cc03dc394c99e874cfdaa51&v=4",
+          "url": "https://github.com/Neerajpathak07"
+        },
+        "comments": {
+          "totalCount": 1
+        },
+        "mergedBy": null,
+        "additions": 18,
+        "deletions": 67,
+        "changedFiles": 19
+      },
+      {
+        "id": "PR_kwDOA0FY3s66u76l",
+        "number": 9412,
+        "title": "Fix no new arr unzip",
+        "url": "https://github.com/stdlib-js/stdlib/pull/9412",
+        "state": "CLOSED",
+        "createdAt": "2025-12-28T10:43:22Z",
+        "mergedAt": null,
+        "author": {
+          "login": "Ashyankomnitw",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/234196516?v=4",
+          "url": "https://github.com/Ashyankomnitw"
+        },
+        "comments": {
+          "totalCount": 0
+        },
+        "mergedBy": null,
+        "additions": 4,
+        "deletions": 4,
+        "changedFiles": 1
+      },
+      {
+        "id": "PR_kwDOA0FY3s66uiYH",
+        "number": 9411,
+        "title": "feat!: migrate `utils/object-inverse` to `object/inverse`",
+        "url": "https://github.com/stdlib-js/stdlib/pull/9411",
+        "state": "CLOSED",
+        "createdAt": "2025-12-28T07:21:31Z",
+        "mergedAt": null,
+        "author": {
+          "login": "Neerajpathak07",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/171167348?u=371d6e077cb643377cc03dc394c99e874cfdaa51&v=4",
+          "url": "https://github.com/Neerajpathak07"
+        },
+        "comments": {
+          "totalCount": 1
+        },
+        "mergedBy": null,
+        "additions": 18,
+        "deletions": 63,
+        "changedFiles": 21
+      }
+    ],
+    "generatedAt": "2025-12-28T16:54:14.429Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnk5NTAyNzc4NA==",
+    "repoUrl": "https://github.com/stdlib-js/www",
+    "repoName": "www",
+    "repoDescription": "Website for stdlib, a standard library for JavaScript and Node.js.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOBaoCSNoAKDg0NDhkMWExMGZiNjM4NTY3ZTMyMjg4N2QyODU4ZDY4ZDA0ZTA5ZTM",
+        "url": "https://github.com/stdlib-js/www/commit/8448d1a10fb638567e322887d2858d68d04e09e3",
+        "oid": "8448d1a10fb638567e322887d2858d68d04e09e3",
+        "messageHeadline": "chore: reorganize configuration and source files to allow for multipl…",
+        "additions": 94,
+        "deletions": 602,
+        "changedFilesIfAvailable": 119,
+        "committedDate": "2025-12-23T09:56:28Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOBaoCSNoAKGU2ODY0Yzg2YjViZWUyOWM4ZmQ1OTQ1N2M5MTk0ZGZiM2JiZmQ1OWM",
+        "url": "https://github.com/stdlib-js/www/commit/e6864c86b5bee29c8fd59457c9194dfb3bbfd59c",
+        "oid": "e6864c86b5bee29c8fd59457c9194dfb3bbfd59c",
+        "messageHeadline": "build: move stdlib installation out of node_modules tree",
+        "additions": 125,
+        "deletions": 119,
+        "changedFilesIfAvailable": 15,
+        "committedDate": "2025-12-23T09:55:56Z",
+        "author": {
+          "email": "kgryte@gmail.com",
+          "name": "Athan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/2643044?v=4",
+          "user": {
+            "login": "kgryte",
+            "url": "https://github.com/kgryte"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.583Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnk5NjM4MTg1OA==",
+    "repoUrl": "https://github.com/stdlib-js/workshops-fullstack-london-2017",
+    "repoName": "workshops-fullstack-london-2017",
+    "repoDescription": "Workshop for FullStack London (2017).",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.930Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkxMDM3MDU5MzQ=",
+    "repoUrl": "https://github.com/stdlib-js/workshops-nodejs-interactive-2017",
+    "repoName": "workshops-nodejs-interactive-2017",
+    "repoDescription": "Workshop for Node.js Interactive (2017).",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.605Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkyMDcwNDkzNTM=",
+    "repoUrl": "https://github.com/stdlib-js/jupyter-stdlib-browser-kernel",
+    "repoName": "jupyter-stdlib-browser-kernel",
+    "repoDescription": "Run an in-browser JavaScript Jupyter kernel.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.554Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzMjMxMjk4MjQ=",
+    "repoUrl": "https://github.com/stdlib-js/esm",
+    "repoName": "esm",
+    "repoDescription": "ES module distribution for stdlib, a standard library for JavaScript and Node.js.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.038Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNTk5OTEzOTI=",
+    "repoUrl": "https://github.com/stdlib-js/bench",
+    "repoName": "bench",
+    "repoDescription": "Benchmark.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.554Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjAxOTg1Njk=",
+    "repoUrl": "https://github.com/stdlib-js/regexp",
+    "repoName": "regexp",
+    "repoDescription": "Standard library regular expressions.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.054Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjAyOTM3NTY=",
+    "repoUrl": "https://github.com/stdlib-js/assert",
+    "repoName": "assert",
+    "repoDescription": "Standard assertion utilities.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFXmlfNoAKDE4YTZjYWE5ZTJlMDFjOGIxNjk5NzM0M2JiN2Q0NzcwZDRkYzJiNWI",
+        "url": "https://github.com/stdlib-js/assert/commit/18a6caa9e2e01c8b16997343bb7d4770d4dc2b5b",
+        "oid": "18a6caa9e2e01c8b16997343bb7d4770d4dc2b5b",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 12,
+        "deletions": 10,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T01:44:43Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.608Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjAyOTQxODQ=",
+    "repoUrl": "https://github.com/stdlib-js/utils",
+    "repoName": "utils",
+    "repoDescription": "Standard utilities.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFXmnKNoAKDRhMmQzNmRhM2FjYjQwMGQzNGEwNDY0MDE2M2NlMDFlZTgwMjRkMjk",
+        "url": "https://github.com/stdlib-js/utils/commit/4a2d36da3acb400d34a04640163ce01ee8024d29",
+        "oid": "4a2d36da3acb400d34a04640163ce01ee8024d29",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 12,
+        "deletions": 1067,
+        "changedFilesIfAvailable": 15,
+        "committedDate": "2025-12-27T10:04:36Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXmnKNoAKDYwOTE1YmYyYmFlZjEyMTRlYzAyYTk0YWE0NjgyY2I1YzUwYjgzMWY",
+        "url": "https://github.com/stdlib-js/utils/commit/60915bf2baef1214ec02a94aa4682cb5c50b831f",
+        "oid": "60915bf2baef1214ec02a94aa4682cb5c50b831f",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 8,
+        "deletions": 7,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T00:58:33Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXmnKNoAKDQ5NGU4OWZiYmUwNjhmOWI0ZDUyMDU3MmQ5NTZkNjcwN2I1OWY2NWI",
+        "url": "https://github.com/stdlib-js/utils/commit/494e89fbbe068f9b4d520572d956d6707b59f65b",
+        "oid": "494e89fbbe068f9b4d520572d956d6707b59f65b",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 12,
+        "deletions": 1030,
+        "changedFilesIfAvailable": 15,
+        "committedDate": "2025-12-26T21:45:42Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXmnKNoAKDU2NGU2NjM4OGMxMTdmZGQ4NDdhY2ZjNTAyMDcyOTc4MWI5NTBiNzc",
+        "url": "https://github.com/stdlib-js/utils/commit/564e66388c117fdd847acfc5020729781b950b77",
+        "oid": "564e66388c117fdd847acfc5020729781b950b77",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 13,
+        "deletions": 982,
+        "changedFilesIfAvailable": 13,
+        "committedDate": "2025-12-26T04:39:20Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXmnKNoAKGRhNDU4NjUwODQzYzkxZTY1OTM4MzI1OTgxY2FjZDE1YmQzMzY1NGU",
+        "url": "https://github.com/stdlib-js/utils/commit/da458650843c91e65938325981cacd15bd33654e",
+        "oid": "da458650843c91e65938325981cacd15bd33654e",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 16,
+        "deletions": 1009,
+        "changedFilesIfAvailable": 14,
+        "committedDate": "2025-12-25T09:36:12Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXmnKNoAKGU1NjFkMzI3NjZiZmJkZjA4MzQ2MzVjZGU5YTBkZGExZWQ2YzA4MTk",
+        "url": "https://github.com/stdlib-js/utils/commit/e561d32766bfbdf0834635cde9a0dda1ed6c0819",
+        "oid": "e561d32766bfbdf0834635cde9a0dda1ed6c0819",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 13,
+        "deletions": 742,
+        "changedFilesIfAvailable": 13,
+        "committedDate": "2025-12-24T22:23:22Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXmnKNoAKDQwZjA5MzgwZDYyOTA1ZTBhMmRjOTY4MjJiN2MxNjE5NzE4NmI1Njc",
+        "url": "https://github.com/stdlib-js/utils/commit/40f09380d62905e0a2dc96822b7c16197186b567",
+        "oid": "40f09380d62905e0a2dc96822b7c16197186b567",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 16,
+        "deletions": 744,
+        "changedFilesIfAvailable": 14,
+        "committedDate": "2025-12-23T08:15:35Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.582Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA0MDYzNDE=",
+    "repoUrl": "https://github.com/stdlib-js/constants",
+    "repoName": "constants",
+    "repoDescription": "Standard library constants.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFXtdRdoAKGJkNWU5ODIwOWVkOGYzOGU1N2VlOGYxOGVhMjI1ZDg0YTBhYTYyNTU",
+        "url": "https://github.com/stdlib-js/constants/commit/bd5e98209ed8f38e57ee8f18ea225d84a0aa6255",
+        "oid": "bd5e98209ed8f38e57ee8f18ea225d84a0aa6255",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 334,
+        "deletions": 2,
+        "changedFilesIfAvailable": 9,
+        "committedDate": "2025-12-27T01:16:53Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFXtdRdoAKGQ2OGQ3NTQxMDc0NzhkYWRiMGEwM2Q0MmMyMTg3N2NmNmUyZjM2MDg",
+        "url": "https://github.com/stdlib-js/constants/commit/d68d754107478dadb0a03d42c21877cf6e2f3608",
+        "oid": "d68d754107478dadb0a03d42c21877cf6e2f3608",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 7,
+        "deletions": 5,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T01:44:56Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.082Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA0MDY3MjU=",
+    "repoUrl": "https://github.com/stdlib-js/fs",
+    "repoName": "fs",
+    "repoDescription": "Standard library for interfacing with a fileystem.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.022Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA0MDcwODQ=",
+    "repoUrl": "https://github.com/stdlib-js/os",
+    "repoName": "os",
+    "repoDescription": "Standard library OS utilities.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.600Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTE4MDA=",
+    "repoUrl": "https://github.com/stdlib-js/array",
+    "repoName": "array",
+    "repoDescription": "Arrays.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2VeNoAKDUyZmI2MGU5OWViOWM0ZGQyNDZhNWVlMTVhZDk5NThmMmU0M2QwNzk",
+        "url": "https://github.com/stdlib-js/array/commit/52fb60e99eb9c4dd246a5ee15ad9958f2e43d079",
+        "oid": "52fb60e99eb9c4dd246a5ee15ad9958f2e43d079",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 4,
+        "deletions": 3,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-27T01:00:00Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.012Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTE5NDU=",
+    "repoUrl": "https://github.com/stdlib-js/datasets",
+    "repoName": "datasets",
+    "repoDescription": "Standard library datasets.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.054Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTIxMjk=",
+    "repoUrl": "https://github.com/stdlib-js/math",
+    "repoName": "math",
+    "repoDescription": "Standard library math.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2WwdoAKDBlOGFmNjFkYTE2M2JlMGViZWFjMDZiNTAwZDIzNTIxNjJjZDZmN2Q",
+        "url": "https://github.com/stdlib-js/math/commit/0e8af61da163be0ebeac06b500d2352162cd6f7d",
+        "oid": "0e8af61da163be0ebeac06b500d2352162cd6f7d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 6,
+        "deletions": 4,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T06:10:05Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2WwdoAKGQ1ZmU4M2I3NTI1ZGZiZmI4NWRkZDJjNGIzN2I1OGNhNTNhYTYyNTc",
+        "url": "https://github.com/stdlib-js/math/commit/d5fe83b7525dfbfb85ddd2c4b37b58ca53aa6257",
+        "oid": "d5fe83b7525dfbfb85ddd2c4b37b58ca53aa6257",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 4,
+        "deletions": 3,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T19:11:02Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2WwdoAKDQwZjQxMDJkNjZiMjI3YTkzNDMwYWM1ODBmYmQ3Yzg0MzFlYjAwNmY",
+        "url": "https://github.com/stdlib-js/math/commit/40f4102d66b227a93430ac580fbd7c8431eb006f",
+        "oid": "40f4102d66b227a93430ac580fbd7c8431eb006f",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 7,
+        "deletions": 3,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T09:55:35Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2WwdoAKDA4ZTRhNTExNjI3MjI2N2U1NGEwZjFlZjYxODhiNGZlNWQ3MjI0OTQ",
+        "url": "https://github.com/stdlib-js/math/commit/08e4a5116272267e54a0f1ef6188b4fe5d722494",
+        "oid": "08e4a5116272267e54a0f1ef6188b4fe5d722494",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 8,
+        "deletions": 4,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T01:45:44Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2WwdoAKGY5OThjODEyZmVmZTNhZmVlYjJjMzUwN2JmYTc3MzI0M2Q1ZTlmYzM",
+        "url": "https://github.com/stdlib-js/math/commit/f998c812fefe3afeeb2c3507bfa773243d5e9fc3",
+        "oid": "f998c812fefe3afeeb2c3507bfa773243d5e9fc3",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2879,
+        "deletions": 2,
+        "changedFilesIfAvailable": 41,
+        "committedDate": "2025-12-24T10:02:50Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2WwdoAKGYzM2I2OGJmMTlmOWE5YjhhMDE2MDczZWY5Yjg0OTk0Y2I3NTNjMTE",
+        "url": "https://github.com/stdlib-js/math/commit/f33b68bf19f9a9b8a016073ef9b84994cb753c11",
+        "oid": "f33b68bf19f9a9b8a016073ef9b84994cb753c11",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 12,
+        "deletions": 4,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-23T08:12:11Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2WwdoAKDY1MDAxZWI1N2Q3MTY3ODFiZmQ4Y2Q3NmQxOWYzMmFiZTQ4MzljNjY",
+        "url": "https://github.com/stdlib-js/math/commit/65001eb57d716781bfd8cd76d19f32abe4839c66",
+        "oid": "65001eb57d716781bfd8cd76d19f32abe4839c66",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 13,
+        "deletions": 5,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-23T08:10:46Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.026Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTIzMTI=",
+    "repoUrl": "https://github.com/stdlib-js/iter",
+    "repoName": "iter",
+    "repoDescription": "Standard library iterator utilities.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.054Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTI1MDI=",
+    "repoUrl": "https://github.com/stdlib-js/process",
+    "repoName": "process",
+    "repoDescription": "Standard library process utilities.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.090Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTI2ODA=",
+    "repoUrl": "https://github.com/stdlib-js/random",
+    "repoName": "random",
+    "repoDescription": "Standard library generic random functions.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2Y6NoAKGI5MjlhMzA5NmU0NWZhMWFiZTdiZTk1ZmYwNGViZmU1YjFhZTVlZGQ",
+        "url": "https://github.com/stdlib-js/random/commit/b929a3096e45fa1abe7be95ff04ebfe5b1ae5edd",
+        "oid": "b929a3096e45fa1abe7be95ff04ebfe5b1ae5edd",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 9,
+        "deletions": 8,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-28T05:59:00Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKDJmMjgwZDA0NjVmOTc4OTY1NzNhYzI0ZGQ5MzhkMTIzZDcxYjFmMzM",
+        "url": "https://github.com/stdlib-js/random/commit/2f280d0465f97896573ac24dd938d123d71b1f33",
+        "oid": "2f280d0465f97896573ac24dd938d123d71b1f33",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 240,
+        "deletions": 0,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T05:52:57Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKGY5MjY4ODY3OGUyN2QzYThhZmJiMjYyY2NmMjkzZDdhZTYzNTEzOGQ",
+        "url": "https://github.com/stdlib-js/random/commit/f92688678e27d3a8afbb262ccf293d7ae635138d",
+        "oid": "f92688678e27d3a8afbb262ccf293d7ae635138d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 8,
+        "deletions": 4,
+        "changedFilesIfAvailable": 5,
+        "committedDate": "2025-12-28T02:17:37Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKGJjNjM4YzJiYTY1NjEwMTZhNzY1MjhhMjRiNzk0MzI1MzNlOGJmOTE",
+        "url": "https://github.com/stdlib-js/random/commit/bc638c2ba6561016a76528a24b79432533e8bf91",
+        "oid": "bc638c2ba6561016a76528a24b79432533e8bf91",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 4,
+        "deletions": 2,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-28T02:11:08Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKDFiZTRiZGJiMjdmNDE0YTdiMWJmMmViNDlkNGVjYjgyZWJhNGE3ZDU",
+        "url": "https://github.com/stdlib-js/random/commit/1be4bdbb27f414a7b1bf2eb49d4ecb82eba4a7d5",
+        "oid": "1be4bdbb27f414a7b1bf2eb49d4ecb82eba4a7d5",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 5815,
+        "deletions": 0,
+        "changedFilesIfAvailable": 33,
+        "committedDate": "2025-12-28T00:44:09Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKDRlZTE4NDA1MDBkYTFjYzFmNDdmOTM5ODIwZGVkY2EyNzg1YTliNzc",
+        "url": "https://github.com/stdlib-js/random/commit/4ee1840500da1cc1f47f939820dedca2785a9b77",
+        "oid": "4ee1840500da1cc1f47f939820dedca2785a9b77",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T00:42:41Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKGFjMWE0YjgzNmU5ZTkzMDBiZTQ2OWYwYTQ4MThjYWJjNzA0M2Y2ZTQ",
+        "url": "https://github.com/stdlib-js/random/commit/ac1a4b836e9e9300be469f0a4818cabc7043f6e4",
+        "oid": "ac1a4b836e9e9300be469f0a4818cabc7043f6e4",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 35117,
+        "deletions": 0,
+        "changedFilesIfAvailable": 156,
+        "committedDate": "2025-12-27T12:39:53Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKDdjODFlOWNhNjE3MmI2NDQ2YWJjMDNmNzZmZGU1NGQ5ZDMzY2YyZjA",
+        "url": "https://github.com/stdlib-js/random/commit/7c81e9ca6172b6446abc03f76fde54d9d33cf2f0",
+        "oid": "7c81e9ca6172b6446abc03f76fde54d9d33cf2f0",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 125,
+        "deletions": 85,
+        "changedFilesIfAvailable": 22,
+        "committedDate": "2025-12-27T11:15:03Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKGU5ZDA5ZGMwMzZmNWU4Zjk5YjY3ZDRhMjdjZmI1MjQyZmM0ZmE5NDc",
+        "url": "https://github.com/stdlib-js/random/commit/e9d09dc036f5e8f99b67d4a27cfb5242fc4fa947",
+        "oid": "e9d09dc036f5e8f99b67d4a27cfb5242fc4fa947",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 784,
+        "deletions": 778,
+        "changedFilesIfAvailable": 52,
+        "committedDate": "2025-12-27T10:52:02Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKGJmZWFiYjk1MGFiZGFhZTY2ZTI2NDc1YzYxMzM2N2YwYTU2YWE1YzA",
+        "url": "https://github.com/stdlib-js/random/commit/bfeabb950abdaae66e26475c613367f0a56aa5c0",
+        "oid": "bfeabb950abdaae66e26475c613367f0a56aa5c0",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 750,
+        "deletions": 13,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-22T06:29:02Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Y6NoAKDMwY2NjZWVkZDdiYjM4OGZmNDlhNDM1ZTFlNWRkYWZhMmRkYmYwYjQ",
+        "url": "https://github.com/stdlib-js/random/commit/30ccceedd7bb388ff49a435e1e5ddafa2ddbf0b4",
+        "oid": "30ccceedd7bb388ff49a435e1e5ddafa2ddbf0b4",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 22,
+        "deletions": 21,
+        "changedFilesIfAvailable": 5,
+        "committedDate": "2025-12-22T06:29:00Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.112Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTI5MTc=",
+    "repoUrl": "https://github.com/stdlib-js/stats",
+    "repoName": "stats",
+    "repoDescription": "Standard library statistical functions.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2Z1doAKDYxYzU0MTFjNWYzMTc3YmU3OWFmYTNkMDJmMGJkMjNhMjNlOTFhZDc",
+        "url": "https://github.com/stdlib-js/stats/commit/61c5411c5f3177be79afa3d02f0bd23a23e91ad7",
+        "oid": "61c5411c5f3177be79afa3d02f0bd23a23e91ad7",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 6,
+        "deletions": 4,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-28T06:13:21Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDAyNjFlZjJlMzIzNWE4ZTliNDVhNjIzYTI1NDhiNjk2MzU2YjI3ZmQ",
+        "url": "https://github.com/stdlib-js/stats/commit/0261ef2e3235a8e9b45a623a2548b696356b27fd",
+        "oid": "0261ef2e3235a8e9b45a623a2548b696356b27fd",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 7,
+        "deletions": 6,
+        "changedFilesIfAvailable": 4,
+        "committedDate": "2025-12-28T06:00:41Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKGRlY2IyYzQ0OTY4MTlkYmE1YmU5ZjlkYjdkMTdkNmFiOGUwNTgzZTA",
+        "url": "https://github.com/stdlib-js/stats/commit/decb2c4496819dba5be9f9db7d17d6ab8e0583e0",
+        "oid": "decb2c4496819dba5be9f9db7d17d6ab8e0583e0",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 5,
+        "deletions": 4,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T01:02:21Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDYwNzJhYmIxNDkzNTE1ODQ4MTE4YTJjODA1NGFmYjRiMzgwYWU5NDA",
+        "url": "https://github.com/stdlib-js/stats/commit/6072abb1493515848118a2c8054afb4b380ae940",
+        "oid": "6072abb1493515848118a2c8054afb4b380ae940",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3933,
+        "deletions": 1,
+        "changedFilesIfAvailable": 34,
+        "committedDate": "2025-12-27T00:35:03Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKGQ1MTQxNDQ4NmI4NDcxYTVmZjkwMjYyZDI2YThjMWI2ZmExZGZiN2M",
+        "url": "https://github.com/stdlib-js/stats/commit/d51414486b8471a5ff90262d26a8c1b6fa1dfb7c",
+        "oid": "d51414486b8471a5ff90262d26a8c1b6fa1dfb7c",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 987,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T22:41:12Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDhhNjQzNTdlOTAyMGIzYjY0ZGM2OGM2NWFjMTE5MmU1ZGVkYTE5MDI",
+        "url": "https://github.com/stdlib-js/stats/commit/8a64357e9020b3b64dc68c65ac1192e5deda1902",
+        "oid": "8a64357e9020b3b64dc68c65ac1192e5deda1902",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 984,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T22:37:40Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDY1MjZlMjg2YmUxMGIyYjcxOWIzMDExZWFkMmRmYjBmZDk2MDI0MjM",
+        "url": "https://github.com/stdlib-js/stats/commit/6526e286be10b2b719b3011ead2dfb0fd9602423",
+        "oid": "6526e286be10b2b719b3011ead2dfb0fd9602423",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 998,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T22:08:25Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDQyZDMxZTk2MGJmNjk3NDhjMjU4YmY3YjdiMGRmNzc5MTViOTIzMjY",
+        "url": "https://github.com/stdlib-js/stats/commit/42d31e960bf69748c258bf7b7b0df77915b92326",
+        "oid": "42d31e960bf69748c258bf7b7b0df77915b92326",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 987,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-26T22:00:59Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDZkMWUyNzZmZTdjODcxYjk3ZTVkYzczMjk2Y2Q4MDJjZDk3ZGUxOTU",
+        "url": "https://github.com/stdlib-js/stats/commit/6d1e276fe7c871b97e5dc73296cd802cd97de195",
+        "oid": "6d1e276fe7c871b97e5dc73296cd802cd97de195",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 22,
+        "deletions": 70,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-26T21:35:00Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDE0ODc0ZDA1YjM1ZDVkY2VhNzc2MjQxMjczMjRlNzMzNzlkMDFhNGE",
+        "url": "https://github.com/stdlib-js/stats/commit/14874d05b35d5dcea77624127324e73379d01a4a",
+        "oid": "14874d05b35d5dcea77624127324e73379d01a4a",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3564,
+        "deletions": 0,
+        "changedFilesIfAvailable": 34,
+        "committedDate": "2025-12-26T10:15:39Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDk5MzYwYjJjYzcyZThjMDhhMDBkYzg5MDhlYWMzZWNiNGM2MDFmMGE",
+        "url": "https://github.com/stdlib-js/stats/commit/99360b2cc72e8c08a00dc8908eac3ecb4c601f0a",
+        "oid": "99360b2cc72e8c08a00dc8908eac3ecb4c601f0a",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 7,
+        "deletions": 6,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-26T05:09:26Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDliM2Y5MTM4M2Y4Zjg3YzQ5YTdmZTY1YzI0NGViMzExMzEzNDQ3MmE",
+        "url": "https://github.com/stdlib-js/stats/commit/9b3f91383f8f87c49a7fe65c244eb3113134472a",
+        "oid": "9b3f91383f8f87c49a7fe65c244eb3113134472a",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 22,
+        "deletions": 13,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-25T19:12:26Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDgwNDgzYTY1MDNiNTdkM2UyN2VkYWYyNTk2Nzk0NDEzMjFmYzY5NDQ",
+        "url": "https://github.com/stdlib-js/stats/commit/80483a6503b57d3e27edaf259679441321fc6944",
+        "oid": "80483a6503b57d3e27edaf259679441321fc6944",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2227,
+        "deletions": 1,
+        "changedFilesIfAvailable": 16,
+        "committedDate": "2025-12-25T03:04:24Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKGMwMzQ0OTYzYzQxMDFmM2EzNzhiYjAxYjRjN2VmZjczMmM5MTE5ZGU",
+        "url": "https://github.com/stdlib-js/stats/commit/c0344963c4101f3a378bb01b4c7eff732c9119de",
+        "oid": "c0344963c4101f3a378bb01b4c7eff732c9119de",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2677,
+        "deletions": 0,
+        "changedFilesIfAvailable": 14,
+        "committedDate": "2025-12-24T22:49:15Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKGE1OWY4OWE5NDNjZGQ0YjY1ZjliNTAxNmM5MTEwNTU2ZDBjZTQ2Yzk",
+        "url": "https://github.com/stdlib-js/stats/commit/a59f89a943cdd4b65f9b5016c9110556d0ce46c9",
+        "oid": "a59f89a943cdd4b65f9b5016c9110556d0ce46c9",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 993,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-24T22:18:30Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKGIzMzk1ZGM3Mzc5ZDdjYWZjZTYxZGNkYjI1Y2M0MzI0NTUwODBkNzA",
+        "url": "https://github.com/stdlib-js/stats/commit/b3395dc7379d7cafce61dcdb25cc432455080d70",
+        "oid": "b3395dc7379d7cafce61dcdb25cc432455080d70",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 978,
+        "deletions": 0,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-24T22:17:45Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDJhMTI2ZjQ5YjVhY2FjYTcwZjIzZWIwZjY2ZmM3ZTBmZGNiYmFhZjg",
+        "url": "https://github.com/stdlib-js/stats/commit/2a126f49b5acaca70f23eb0f66fc7e0fdcbbaaf8",
+        "oid": "2a126f49b5acaca70f23eb0f66fc7e0fdcbbaaf8",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-24T22:13:56Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKGUxYmJiYzA1MjQ5YmI1OTg1MzNjMDc4MTM1MjIxNWQ2OGQzZTc3MWQ",
+        "url": "https://github.com/stdlib-js/stats/commit/e1bbbc05249bb598533c0781352215d68d3e771d",
+        "oid": "e1bbbc05249bb598533c0781352215d68d3e771d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 10,
+        "deletions": 6,
+        "changedFilesIfAvailable": 5,
+        "committedDate": "2025-12-24T22:08:51Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDlhYmZkYTVkYTU2OTI1NmU4MGI3ZWNjYzNhZjFmYTNkMzY1NjhhZTg",
+        "url": "https://github.com/stdlib-js/stats/commit/9abfda5da569256e80b7eccc3af1fa3d36568ae8",
+        "oid": "9abfda5da569256e80b7eccc3af1fa3d36568ae8",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2229,
+        "deletions": 0,
+        "changedFilesIfAvailable": 17,
+        "committedDate": "2025-12-24T10:51:47Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDYyMzM2ZjNlNGVkNmM5OTUyYjIwMzVkYmZiMDhhNWM4MTJiZGY3YjQ",
+        "url": "https://github.com/stdlib-js/stats/commit/62336f3e4ed6c9952b2035dbfb08a5c812bdf7b4",
+        "oid": "62336f3e4ed6c9952b2035dbfb08a5c812bdf7b4",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 744,
+        "deletions": 0,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-24T10:22:43Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDYxNjIyNjA5ZTY3MDI1YmEzYjdiNmVjZjhkMTk0Y2QwY2ZjNTY2OWQ",
+        "url": "https://github.com/stdlib-js/stats/commit/61622609e67025ba3b7b6ecf8d194cd0cfc5669d",
+        "oid": "61622609e67025ba3b7b6ecf8d194cd0cfc5669d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1928,
+        "deletions": 0,
+        "changedFilesIfAvailable": 16,
+        "committedDate": "2025-12-24T10:04:30Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDQ3OGFkNjEwZmE2NjNhOWNjNzQzNTc3NzhiMjE0MGRlM2UxOTcyNzM",
+        "url": "https://github.com/stdlib-js/stats/commit/478ad610fa663a9cc74357778b2140de3e197273",
+        "oid": "478ad610fa663a9cc74357778b2140de3e197273",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 11,
+        "deletions": 10,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-24T01:24:42Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDU2NGMwNmNmNjZhNDU5NDY5NWQ2YTBlMjI3ZmQ2M2U5ZjFlODgyYTQ",
+        "url": "https://github.com/stdlib-js/stats/commit/564c06cf66a4594695d6a0e227fd63e9f1e882a4",
+        "oid": "564c06cf66a4594695d6a0e227fd63e9f1e882a4",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 692,
+        "deletions": 35,
+        "changedFilesIfAvailable": 29,
+        "committedDate": "2025-12-24T01:07:58Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDk0MjJlOGRmYWUwN2FjYjJmMGNhZmUzNDI0YmIzYjY2MmQ2ZTU5MTA",
+        "url": "https://github.com/stdlib-js/stats/commit/9422e8dfae07acb2f0cafe3424bb3b662d6e5910",
+        "oid": "9422e8dfae07acb2f0cafe3424bb3b662d6e5910",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 967,
+        "deletions": 1,
+        "changedFilesIfAvailable": 12,
+        "committedDate": "2025-12-23T09:15:50Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDBjOTI3YzdlMDlmMWM2MzhmNTdmNTE3Zjk3NTQxMDkyOGY2YjAxMDc",
+        "url": "https://github.com/stdlib-js/stats/commit/0c927c7e09f1c638f57f517f975410928f6b0107",
+        "oid": "0c927c7e09f1c638f57f517f975410928f6b0107",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 280,
+        "deletions": 6,
+        "changedFilesIfAvailable": 4,
+        "committedDate": "2025-12-22T06:30:07Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2Z1doAKDJhY2E5ZDI4YWMxODBlZjAyMTU0NGE3OTM4NjYzYzAzYTQxOGMwOWQ",
+        "url": "https://github.com/stdlib-js/stats/commit/2aca9d28ac180ef021544a7938663c03a418c09d",
+        "oid": "2aca9d28ac180ef021544a7938663c03a418c09d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1803,
+        "deletions": 1,
+        "changedFilesIfAvailable": 16,
+        "committedDate": "2025-12-21T21:41:35Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.703Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTMxMjg=",
+    "repoUrl": "https://github.com/stdlib-js/time",
+    "repoName": "time",
+    "repoDescription": "Standard library time utilities.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.670Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTUxMDU=",
+    "repoUrl": "https://github.com/stdlib-js/complex",
+    "repoName": "complex",
+    "repoDescription": "Complex numbers.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2iYdoAKDhjYzIxMGNlYzZiMjZkYjc5YTI1NGUyMjExZmVkN2Y2MzRlZGJhYWI",
+        "url": "https://github.com/stdlib-js/complex/commit/8cc210cec6b26db79a254e2211fed7f634edbaab",
+        "oid": "8cc210cec6b26db79a254e2211fed7f634edbaab",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T02:21:22Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.660Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTU1MTM=",
+    "repoUrl": "https://github.com/stdlib-js/number",
+    "repoName": "number",
+    "repoDescription": "Number.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2j-doAKGI2MDdjMjg3MGMwODk0M2ZjYTNmZDI1NTdiZWM3NWQ1NzY3ZjI0YTc",
+        "url": "https://github.com/stdlib-js/number/commit/b607c2870c08943fca3fd2557bec75d5767f24a7",
+        "oid": "b607c2870c08943fca3fd2557bec75d5767f24a7",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 18,
+        "deletions": 5,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-27T01:00:28Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDEzMmVjYzE5ZGM4OWZjNTYyMWI4N2NiNTFjZTcxN2E4YjVlMDFjOGQ",
+        "url": "https://github.com/stdlib-js/number/commit/132ecc19dc89fc5621b87cb51ce717a8b5e01c8d",
+        "oid": "132ecc19dc89fc5621b87cb51ce717a8b5e01c8d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 745,
+        "deletions": 2,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-27T00:34:19Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDA4N2JiZjJiMmQ0NTkyMDdlZGJkZTdmZGZhYWRmMzkxYjJmM2ZkYzE",
+        "url": "https://github.com/stdlib-js/number/commit/087bbf2b2d459207edbde7fdfaadf391b2f3fdc1",
+        "oid": "087bbf2b2d459207edbde7fdfaadf391b2f3fdc1",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 750,
+        "deletions": 0,
+        "changedFilesIfAvailable": 11,
+        "committedDate": "2025-12-26T23:15:26Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDlhZDBhYTdiY2ViNDZiMmE4ZjQzYWQ1ZDE0MWE0MDU2NDUzOTY2ZWM",
+        "url": "https://github.com/stdlib-js/number/commit/9ad0aa7bceb46b2a8f43ad5d141a4056453966ec",
+        "oid": "9ad0aa7bceb46b2a8f43ad5d141a4056453966ec",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1499,
+        "deletions": 3,
+        "changedFilesIfAvailable": 18,
+        "committedDate": "2025-12-26T21:59:56Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDU5YzRmZWRjNjUyMWEzN2NhYjNjMDU4YzE5MzEwMzY2M2NlMWM5N2U",
+        "url": "https://github.com/stdlib-js/number/commit/59c4fedc6521a37cab3c058c193103663ce1c97e",
+        "oid": "59c4fedc6521a37cab3c058c193103663ce1c97e",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-26T20:38:56Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDhlMWU1NjhmNWVjNDBhNTNlMzNjNDcxZTYyMDIyYWE4ZWY2NjNmMGE",
+        "url": "https://github.com/stdlib-js/number/commit/8e1e568f5ec40a53e33c471e62022aa8ef663f0a",
+        "oid": "8e1e568f5ec40a53e33c471e62022aa8ef663f0a",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2289,
+        "deletions": 0,
+        "changedFilesIfAvailable": 37,
+        "committedDate": "2025-12-26T10:10:09Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDZjMTBlMmVjODAyMWQ3Y2UyODNjNjY1YjFiZmI2ZDBlN2E1ODk5NTI",
+        "url": "https://github.com/stdlib-js/number/commit/6c10e2ec8021d7ce283c665b1bfb6d0e7a589952",
+        "oid": "6c10e2ec8021d7ce283c665b1bfb6d0e7a589952",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2004,
+        "deletions": 0,
+        "changedFilesIfAvailable": 25,
+        "committedDate": "2025-12-26T09:43:37Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDZiY2I2ZmJiYzlkNjQ1NjhiNjg1MWE2YmQzOWU4OTQxYjg4ZTk1NGU",
+        "url": "https://github.com/stdlib-js/number/commit/6bcb6fbbc9d64568b6851a6bd39e8941b88e954e",
+        "oid": "6bcb6fbbc9d64568b6851a6bd39e8941b88e954e",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2380,
+        "deletions": 0,
+        "changedFilesIfAvailable": 37,
+        "committedDate": "2025-12-26T09:39:55Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDVjYTdjM2Q1OWY5ZDI3YmM4ZmE4NWZiMGQzZTIyMWM4ZDMwNWY1ZjY",
+        "url": "https://github.com/stdlib-js/number/commit/5ca7c3d59f9d27bc8fa85fb0d3e221c8d305f5f6",
+        "oid": "5ca7c3d59f9d27bc8fa85fb0d3e221c8d305f5f6",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 972,
+        "deletions": 2,
+        "changedFilesIfAvailable": 18,
+        "committedDate": "2025-12-26T09:12:48Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDgxMThhZDJjMmJkODdhYjI2ZGY0NjM2MGE3NmU5MDEzMWY4OWE4YjE",
+        "url": "https://github.com/stdlib-js/number/commit/8118ad2c2bd87ab26df46360a76e90131f89a8b1",
+        "oid": "8118ad2c2bd87ab26df46360a76e90131f89a8b1",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1330,
+        "deletions": 0,
+        "changedFilesIfAvailable": 17,
+        "committedDate": "2025-12-23T09:46:12Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDdkY2QxMmM4OWVlZDgwOTgzN2JkYjQ1ODFmZWEyNmQ3NWU5MzY5Yzk",
+        "url": "https://github.com/stdlib-js/number/commit/7dcd12c89eed809837bdb4581fea26d75e9369c9",
+        "oid": "7dcd12c89eed809837bdb4581fea26d75e9369c9",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1633,
+        "deletions": 18,
+        "changedFilesIfAvailable": 18,
+        "committedDate": "2025-12-23T09:15:48Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKDMyNmIwYjIzZDE1N2JmNDczODEwM2Y2MDAxZTMzNzAyMTFhMjA5NWI",
+        "url": "https://github.com/stdlib-js/number/commit/326b0b23d157bf4738103f6001e3370211a2095b",
+        "oid": "326b0b23d157bf4738103f6001e3370211a2095b",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 7,
+        "deletions": 5,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-21T21:48:07Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2j-doAKGZlNGM2ODM1MTViZmU2ODE4ZWYzM2ZkNDcwMjE0ZDg0MGExZjA3ZTI",
+        "url": "https://github.com/stdlib-js/number/commit/fe4c683515bfe6818ef33fd470214d840a1f07e2",
+        "oid": "fe4c683515bfe6818ef33fd470214d840a1f07e2",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1466,
+        "deletions": 0,
+        "changedFilesIfAvailable": 17,
+        "committedDate": "2025-12-21T21:44:35Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.122Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTU2NjU=",
+    "repoUrl": "https://github.com/stdlib-js/simulate",
+    "repoName": "simulate",
+    "repoDescription": "Standard library simulation utilities.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.112Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTU4Njg=",
+    "repoUrl": "https://github.com/stdlib-js/streams",
+    "repoName": "streams",
+    "repoDescription": "Standard library streams.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.091Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTYwODU=",
+    "repoUrl": "https://github.com/stdlib-js/symbol",
+    "repoName": "symbol",
+    "repoDescription": "Symbol.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.110Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTY0NjM=",
+    "repoUrl": "https://github.com/stdlib-js/buffer",
+    "repoName": "buffer",
+    "repoDescription": "Buffer.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.102Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTY1OTk=",
+    "repoUrl": "https://github.com/stdlib-js/blas",
+    "repoName": "blas",
+    "repoDescription": "Standard library basic linear algebra subprograms (BLAS).",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2oN9oAKDYxZmQ2NDVmNjc3ZjYyN2JkYmRkZDIwZDc4M2NhZjNlNzk0MTdjM2E",
+        "url": "https://github.com/stdlib-js/blas/commit/61fd645f677f627bdbddd20d783caf3e79417c3a",
+        "oid": "61fd645f677f627bdbddd20d783caf3e79417c3a",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T09:00:46Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2oN9oAKDIzOTc5ZWQwYTcwMDIzNGFlY2Q5M2JiODZiYmJmOWE0ZDQ3MTdkYjY",
+        "url": "https://github.com/stdlib-js/blas/commit/23979ed0a700234aecd93bb86bbbf9a4d4717db6",
+        "oid": "23979ed0a700234aecd93bb86bbbf9a4d4717db6",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 6,
+        "deletions": 5,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T08:47:14Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2oN9oAKDZiMmMwNzQxYjBkNjVmODE3YzkxMDNjM2NmN2E5MGVjYjMwNzI3Yjg",
+        "url": "https://github.com/stdlib-js/blas/commit/6b2c0741b0d65f817c9103c3cf7a90ecb30727b8",
+        "oid": "6b2c0741b0d65f817c9103c3cf7a90ecb30727b8",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 4,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-25T09:22:32Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2oN9oAKDdjNjA5ZWFkNDZlN2FkYjIyOWU3YmFjNTQyYTEzZjA1MmUzZDg5NjQ",
+        "url": "https://github.com/stdlib-js/blas/commit/7c609ead46e7adb229e7bac542a13f052e3d8964",
+        "oid": "7c609ead46e7adb229e7bac542a13f052e3d8964",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 10,
+        "deletions": 4,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-23T08:09:08Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2oN9oAKDljYjRlMDM5YmJlYmM2ODBjNDA3NDRkYTg4MjdlNGI5NDhmMzY5OWQ",
+        "url": "https://github.com/stdlib-js/blas/commit/9cb4e039bbebc680c40744da8827e4b948f3699d",
+        "oid": "9cb4e039bbebc680c40744da8827e4b948f3699d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 16,
+        "deletions": 6,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-22T10:53:14Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2oN9oAKGRlYjllYjgzOWZiMWQ3ODdlMjc3YmI1ZTk4ZmNhMDA4MmJhMmViYWE",
+        "url": "https://github.com/stdlib-js/blas/commit/deb9eb839fb1d787e277bb5e98fca0082ba2ebaa",
+        "oid": "deb9eb839fb1d787e277bb5e98fca0082ba2ebaa",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3000,
+        "deletions": 1,
+        "changedFilesIfAvailable": 16,
+        "committedDate": "2025-12-21T21:37:38Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.768Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTcxNzU=",
+    "repoUrl": "https://github.com/stdlib-js/ndarray",
+    "repoName": "ndarray",
+    "repoDescription": "Multidimensional arrays.",
+    "issues": [],
+    "commits": [
+      {
+        "id": "C_kwDOFX2qd9oAKGUwZDM5YjFjNjQwZTdiZThlMjA3MDE1NTE3ZDZjNmM5ZDg0NzQ5ZDY",
+        "url": "https://github.com/stdlib-js/ndarray/commit/e0d39b1c640e7be8e207015517d6c6c9d84749d6",
+        "oid": "e0d39b1c640e7be8e207015517d6c6c9d84749d6",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 7,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T10:50:35Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDM5MTMzM2JlZTZiYzg1ZTJiNmRlYzgyZWY4YWY4MWM4OGFmYTM1ZGU",
+        "url": "https://github.com/stdlib-js/ndarray/commit/391333bee6bc85e2b6dec82ef8af81c88afa35de",
+        "oid": "391333bee6bc85e2b6dec82ef8af81c88afa35de",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 70,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T10:43:48Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDQ3OGFmM2I4NWU5MjY2N2M0MWQzYTM2NjVlZTAxMDk0MGQ4NGVhZjM",
+        "url": "https://github.com/stdlib-js/ndarray/commit/478af3b85e92667c41d3a3665ee010940d84eaf3",
+        "oid": "478af3b85e92667c41d3a3665ee010940d84eaf3",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 3,
+        "deletions": 8,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T05:59:14Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDkxZTY5MTA1ZTIyNjM4NjdmNGU1OWVmMDEyMTQxZWM2ZTc4OTA2MmU",
+        "url": "https://github.com/stdlib-js/ndarray/commit/91e69105e2263867f4e59ef012141ec6e789062e",
+        "oid": "91e69105e2263867f4e59ef012141ec6e789062e",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T05:57:14Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGFmMjljYzhlN2FlZGRiNDAwZTAwNmE3NmYzMzI5OTkzODI2ODJlNGM",
+        "url": "https://github.com/stdlib-js/ndarray/commit/af29cc8e7aeddb400e006a76f332999382682e4c",
+        "oid": "af29cc8e7aeddb400e006a76f332999382682e4c",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 130,
+        "deletions": 3,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-28T04:22:30Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDBhODc0NDg3YWYwM2E3ZDU2YmMxMDgxMTUxNmY5NzM1NTU3Y2E1MmM",
+        "url": "https://github.com/stdlib-js/ndarray/commit/0a874487af03a7d56bc10811516f9735557ca52c",
+        "oid": "0a874487af03a7d56bc10811516f9735557ca52c",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 47,
+        "deletions": 0,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-28T03:55:49Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDM1NGMyOTY4MDM3ZTNmNTc4NmRiNTEwMzExY2ZmMzk1YjA4MGRiN2U",
+        "url": "https://github.com/stdlib-js/ndarray/commit/354c2968037e3f5786db510311cff395b080db7e",
+        "oid": "354c2968037e3f5786db510311cff395b080db7e",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 116,
+        "deletions": 4,
+        "changedFilesIfAvailable": 4,
+        "committedDate": "2025-12-28T03:46:06Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDcxYjc5ZjgxYTAwMTI3ZTIxOTkzMGFiYWI1MDljOTNhMmRlZjY1OGY",
+        "url": "https://github.com/stdlib-js/ndarray/commit/71b79f81a00127e219930abab509c93a2def658f",
+        "oid": "71b79f81a00127e219930abab509c93a2def658f",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 22,
+        "deletions": 73,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-27T22:01:22Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGNkOWRlNjRlNDIzMzg1MzMwZjNjMzNhOTRiNGFkYzNmZTA1OWNjOWM",
+        "url": "https://github.com/stdlib-js/ndarray/commit/cd9de64e423385330f3c33a94b4adc3fe059cc9c",
+        "oid": "cd9de64e423385330f3c33a94b4adc3fe059cc9c",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 20,
+        "deletions": 67,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-27T08:33:17Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDc0NzQ5OGI2ZGVjOGQ2MGJkYzkxMTc3MDZhMTY3YzA4OWQ5YTVhYzg",
+        "url": "https://github.com/stdlib-js/ndarray/commit/747498b6dec8d60bdc9117706a167c089d9a5ac8",
+        "oid": "747498b6dec8d60bdc9117706a167c089d9a5ac8",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 9,
+        "deletions": 2,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-27T03:52:19Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDFmYzk5ZjJlZmRhNWRiMjU5MzAzYTM5YmMxYmI1MGQ3NzAwMjhjZmI",
+        "url": "https://github.com/stdlib-js/ndarray/commit/1fc99f2efda5db259303a39bc1bb50d770028cfb",
+        "oid": "1fc99f2efda5db259303a39bc1bb50d770028cfb",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2,
+        "deletions": 3,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-26T20:38:52Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGY2MDYyZTllZGYxMDFkN2NlM2E5NzFmZTc3ODczYWM1MmE4ODUxNGQ",
+        "url": "https://github.com/stdlib-js/ndarray/commit/f6062e9edf101d7ce3a971fe77873ac52a88514d",
+        "oid": "f6062e9edf101d7ce3a971fe77873ac52a88514d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 175,
+        "deletions": 143,
+        "changedFilesIfAvailable": 24,
+        "committedDate": "2025-12-26T05:40:18Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDRiM2M2YmY5ZWRkYWQzZDRkNTYyMmI0YTVjOWZkNmRkZjBhYmYwNGE",
+        "url": "https://github.com/stdlib-js/ndarray/commit/4b3c6bf9eddad3d4d5622b4a5c9fd6ddf0abf04a",
+        "oid": "4b3c6bf9eddad3d4d5622b4a5c9fd6ddf0abf04a",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 1581,
+        "deletions": 0,
+        "changedFilesIfAvailable": 15,
+        "committedDate": "2025-12-25T09:56:25Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGQyNWUwMGJiMjZiNDA1ODllNjY3YjBlN2VhMTZiOTBhODA3OTJkNDI",
+        "url": "https://github.com/stdlib-js/ndarray/commit/d25e00bb26b40589e667b0e7ea16b90a80792d42",
+        "oid": "d25e00bb26b40589e667b0e7ea16b90a80792d42",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 15,
+        "deletions": 25,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-25T09:04:46Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDYzZDk2ZTU1ZmYzM2ZmNDE4YWJlZTdhODE5Yjk0NmIyM2IwMmExZDk",
+        "url": "https://github.com/stdlib-js/ndarray/commit/63d96e55ff33ff418abee7a819b946b23b02a1d9",
+        "oid": "63d96e55ff33ff418abee7a819b946b23b02a1d9",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 16,
+        "deletions": 69,
+        "changedFilesIfAvailable": 8,
+        "committedDate": "2025-12-24T22:39:59Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGU3OWQ2OTA2OWUxMGQ1OTcyOWQ3M2JiMjRkZGI0OTQxOWNmZmQxNDY",
+        "url": "https://github.com/stdlib-js/ndarray/commit/e79d69069e10d59729d73bb24ddb49419cffd146",
+        "oid": "e79d69069e10d59729d73bb24ddb49419cffd146",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 18,
+        "deletions": 63,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-24T22:39:32Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDRhMzEwZmY1MGM4ZGI3ZjUwNGM3YjZlNGM2YzI1MTFiMzc5YjRjZTE",
+        "url": "https://github.com/stdlib-js/ndarray/commit/4a310ff50c8db7f504c7b6e4c6c2511b379b4ce1",
+        "oid": "4a310ff50c8db7f504c7b6e4c6c2511b379b4ce1",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 19,
+        "deletions": 75,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-24T22:27:19Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDNmNjQyYjRkZTg4ZDZlNjBhYzI1MWI2OGQ1MDg0NWY5MTJmOGNlNjA",
+        "url": "https://github.com/stdlib-js/ndarray/commit/3f642b4de88d6e60ac251b68d50845f912f8ce60",
+        "oid": "3f642b4de88d6e60ac251b68d50845f912f8ce60",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 12,
+        "deletions": 46,
+        "changedFilesIfAvailable": 6,
+        "committedDate": "2025-12-24T10:50:24Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDkzNTgzY2UzYWFkYWNlMmMxNTEyYmYxYTlhMDk3OTQ0ZTY3NjA2ODE",
+        "url": "https://github.com/stdlib-js/ndarray/commit/93583ce3aadace2c1512bf1a9a097944e6760681",
+        "oid": "93583ce3aadace2c1512bf1a9a097944e6760681",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 5,
+        "deletions": 10,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-24T05:49:19Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDAxYjc4MjYwMDRkN2Y5MzYwZjEyYzI5ZDE3OGRhMjI1MmE5OTUwZGI",
+        "url": "https://github.com/stdlib-js/ndarray/commit/01b7826004d7f9360f12c29d178da2252a9950db",
+        "oid": "01b7826004d7f9360f12c29d178da2252a9950db",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 16,
+        "deletions": 62,
+        "changedFilesIfAvailable": 7,
+        "committedDate": "2025-12-23T16:59:37Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKDg5YTZmM2VhM2IyNjg0NzFmZGIxMmJhODFiYTYxZmUwN2VjNmRjMWQ",
+        "url": "https://github.com/stdlib-js/ndarray/commit/89a6f3ea3b268471fdb12ba81ba61fe07ec6dc1d",
+        "oid": "89a6f3ea3b268471fdb12ba81ba61fe07ec6dc1d",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-23T08:37:47Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGRjYzkxZWUxMzU1NGJhOTdlNmI2ZTc5MzI4NmVkNDEzMTZkNDJlMzk",
+        "url": "https://github.com/stdlib-js/ndarray/commit/dcc91ee13554ba97e6b6e793286ed41316d42e39",
+        "oid": "dcc91ee13554ba97e6b6e793286ed41316d42e39",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 5,
+        "deletions": 6,
+        "changedFilesIfAvailable": 3,
+        "committedDate": "2025-12-23T08:35:25Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGQwOWUzYWY2NzIyZTVmZmRhODYxZTBjOTZhNDFjNjI0NTIwMjg2OWY",
+        "url": "https://github.com/stdlib-js/ndarray/commit/d09e3af6722e5ffda861e0c96a41c6245202869f",
+        "oid": "d09e3af6722e5ffda861e0c96a41c6245202869f",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 47,
+        "deletions": 42,
+        "changedFilesIfAvailable": 9,
+        "committedDate": "2025-12-23T08:12:48Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      },
+      {
+        "id": "C_kwDOFX2qd9oAKGI0NGFmYmQ2YzJmMjM3MDkxY2JmMWRjYjYwYjY0MjJmNGVlYWZjMGU",
+        "url": "https://github.com/stdlib-js/ndarray/commit/b44afbd6c2f237091cbf1dcb60b6422f4eeafc0e",
+        "oid": "b44afbd6c2f237091cbf1dcb60b6422f4eeafc0e",
+        "messageHeadline": "Auto-generated commit",
+        "additions": 2,
+        "deletions": 1,
+        "changedFilesIfAvailable": 2,
+        "committedDate": "2025-12-21T21:46:43Z",
+        "author": {
+          "email": "noreply@stdlib.io",
+          "name": "stdlib-bot",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/82920195?v=4",
+          "user": {
+            "login": "stdlib-bot",
+            "url": "https://github.com/stdlib-bot"
+          }
+        }
+      }
+    ],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.129Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTgwNjY=",
+    "repoUrl": "https://github.com/stdlib-js/types",
+    "repoName": "types",
+    "repoDescription": "stdlib TypeScript type declarations.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.161Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjI1ODE1MzM=",
+    "repoUrl": "https://github.com/stdlib-js/math-base-special",
+    "repoName": "math-base-special",
+    "repoDescription": "Standard library base special math functions.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.808Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjI4OTQ5OTI=",
+    "repoUrl": "https://github.com/stdlib-js/assert-is-undefined",
+    "repoName": "assert-is-undefined",
+    "repoDescription": "Test if a value is undefined.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.152Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjI5MDEyOTM=",
+    "repoUrl": "https://github.com/stdlib-js/assert-is-boolean",
+    "repoName": "assert-is-boolean",
+    "repoDescription": "Test if a value is a boolean.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.224Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjQzMDcyNTk=",
+    "repoUrl": "https://github.com/stdlib-js/assert-is-nan",
+    "repoName": "assert-is-nan",
+    "repoDescription": "Test if a value is NaN.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.812Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjQ0MTc4MjE=",
+    "repoUrl": "https://github.com/stdlib-js/assert-is-arguments",
+    "repoName": "assert-is-arguments",
+    "repoDescription": "Test if a value is an arguments object.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.230Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNjQ2NTczMTU=",
+    "repoUrl": "https://github.com/stdlib-js/assert-is-null",
+    "repoName": "assert-is-null",
+    "repoDescription": "Test if a value is null.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.279Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMDI=",
+    "repoUrl": "https://github.com/stdlib-js/utils-property-symbols",
+    "repoName": "utils-property-symbols",
+    "repoDescription": "Return an array of an object's own symbol properties.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.361Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMTA=",
+    "repoUrl": "https://github.com/stdlib-js/utils-noop",
+    "repoName": "utils-noop",
+    "repoDescription": "Function which does nothing.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.242Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMTk=",
+    "repoUrl": "https://github.com/stdlib-js/utils-next-tick",
+    "repoName": "utils-next-tick",
+    "repoDescription": "Add a callback to the next tick queue.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.264Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMjg=",
+    "repoUrl": "https://github.com/stdlib-js/utils-keys-in",
+    "repoName": "utils-keys-in",
+    "repoDescription": "Return an array of an object's own and inherited enumerable property names.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.239Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMzg=",
+    "repoUrl": "https://github.com/stdlib-js/utils-if-else",
+    "repoName": "utils-if-else",
+    "repoDescription": "If a condition is truthy, return `x`; otherwise, return `y`.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.255Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMwMjM2NDg=",
+    "repoUrl": "https://github.com/stdlib-js/utils-identity-function",
+    "repoName": "utils-identity-function",
+    "repoDescription": "Identity function.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.328Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMwMjM2Njc=",
+    "repoUrl": "https://github.com/stdlib-js/utils-constant-function",
+    "repoName": "utils-constant-function",
+    "repoDescription": "Constant function.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.301Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMwMjM2ODk=",
+    "repoUrl": "https://github.com/stdlib-js/utils-define-property",
+    "repoName": "utils-define-property",
+    "repoDescription": "Define (or modify) an object property.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.339Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzMjIyNDk=",
+    "repoUrl": "https://github.com/stdlib-js/utils-move-property",
+    "repoName": "utils-move-property",
+    "repoDescription": "Move a property from one object to another object.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.998Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzMjY1Mzc=",
+    "repoUrl": "https://github.com/stdlib-js/utils-inherit",
+    "repoName": "utils-inherit",
+    "repoDescription": "Implement prototypical inheritance by replacing the prototype of one constructor with the prototype of another constructor.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.390Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzMjcyOTg=",
+    "repoUrl": "https://github.com/stdlib-js/utils-define-write-only-accessor",
+    "repoName": "utils-define-write-only-accessor",
+    "repoDescription": "Define a write-only accessor.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:13.939Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzNTk2OTc=",
+    "repoUrl": "https://github.com/stdlib-js/.github",
+    "repoName": ".github",
+    "repoDescription": "Community health files for stdlib repositories.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.408Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzM2Mzg0OTg=",
+    "repoUrl": "https://github.com/stdlib-js/utils-define-read-write-accessor",
+    "repoName": "utils-define-read-write-accessor",
+    "repoDescription": "Define a read-write accessor.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.366Z"
+  },
+  {
+    "repoId": "MDEwOlJlcG9zaXRvcnkzNzM2Mzg1MTM=",
+    "repoUrl": "https://github.com/stdlib-js/utils-define-read-only-property",
+    "repoName": "utils-define-read-only-property",
+    "repoDescription": "Define a read-only property.",
+    "issues": [],
+    "commits": [],
+    "pullRequests": [],
+    "generatedAt": "2025-12-28T16:54:14.434Z"
+  }
+]
