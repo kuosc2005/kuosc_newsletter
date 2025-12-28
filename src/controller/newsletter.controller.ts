@@ -15,6 +15,7 @@ export async function fetchData(owner: string, name: string) {
     getIssueData(owner, name, sinceDate),
     getPRData(owner, name, sinceDate),
   ]);
+
   return {
     issues,
     commits,

@@ -2,11 +2,11 @@ export interface Summary {
   repoId: string;
   repoUrl: string;
   repoName: string;
-  repoDescription?: string;
+  repoDescription: string | undefined;
 
-  commits?: Commit[];
-  issues?: Issue[];
-  pullRequests?: PullRequest[];
+  commits: Commit[];
+  issues: Issue[];
+  pullRequests: PullRequest[];
   generatedAt: string;
 }
 

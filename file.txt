@@ -2186,7 +2186,7 @@
         "changedFiles": 21
       }
     ],
-    "generatedAt": "2025-12-28T16:54:14.429Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnk5NTAyNzc4NA==",
@@ -2235,67 +2235,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.583Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnk5NjM4MTg1OA==",
-    "repoUrl": "https://github.com/stdlib-js/workshops-fullstack-london-2017",
-    "repoName": "workshops-fullstack-london-2017",
-    "repoDescription": "Workshop for FullStack London (2017).",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.930Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkxMDM3MDU5MzQ=",
-    "repoUrl": "https://github.com/stdlib-js/workshops-nodejs-interactive-2017",
-    "repoName": "workshops-nodejs-interactive-2017",
-    "repoDescription": "Workshop for Node.js Interactive (2017).",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.605Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkyMDcwNDkzNTM=",
-    "repoUrl": "https://github.com/stdlib-js/jupyter-stdlib-browser-kernel",
-    "repoName": "jupyter-stdlib-browser-kernel",
-    "repoDescription": "Run an in-browser JavaScript Jupyter kernel.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.554Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzMjMxMjk4MjQ=",
-    "repoUrl": "https://github.com/stdlib-js/esm",
-    "repoName": "esm",
-    "repoDescription": "ES module distribution for stdlib, a standard library for JavaScript and Node.js.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.038Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNTk5OTEzOTI=",
-    "repoUrl": "https://github.com/stdlib-js/bench",
-    "repoName": "bench",
-    "repoDescription": "Benchmark.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.554Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjAxOTg1Njk=",
-    "repoUrl": "https://github.com/stdlib-js/regexp",
-    "repoName": "regexp",
-    "repoDescription": "Standard library regular expressions.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.054Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjAyOTM3NTY=",
@@ -2325,7 +2265,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.608Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjAyOTQxODQ=",
@@ -2469,7 +2409,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.582Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA0MDYzNDE=",
@@ -2518,27 +2458,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.082Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA0MDY3MjU=",
-    "repoUrl": "https://github.com/stdlib-js/fs",
-    "repoName": "fs",
-    "repoDescription": "Standard library for interfacing with a fileystem.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.022Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA0MDcwODQ=",
-    "repoUrl": "https://github.com/stdlib-js/os",
-    "repoName": "os",
-    "repoDescription": "Standard library OS utilities.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.600Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTE4MDA=",
@@ -2568,17 +2488,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.012Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTE5NDU=",
-    "repoUrl": "https://github.com/stdlib-js/datasets",
-    "repoName": "datasets",
-    "repoDescription": "Standard library datasets.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.054Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTIxMjk=",
@@ -2722,27 +2632,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.026Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTIzMTI=",
-    "repoUrl": "https://github.com/stdlib-js/iter",
-    "repoName": "iter",
-    "repoDescription": "Standard library iterator utilities.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.054Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTI1MDI=",
-    "repoUrl": "https://github.com/stdlib-js/process",
-    "repoName": "process",
-    "repoDescription": "Standard library process utilities.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.090Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTI2ODA=",
@@ -2962,7 +2852,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.112Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTI5MTc=",
@@ -3467,17 +3357,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.703Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTMxMjg=",
-    "repoUrl": "https://github.com/stdlib-js/time",
-    "repoName": "time",
-    "repoDescription": "Standard library time utilities.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.670Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTUxMDU=",
@@ -3507,7 +3387,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.660Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTU1MTM=",
@@ -3765,47 +3645,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.122Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTU2NjU=",
-    "repoUrl": "https://github.com/stdlib-js/simulate",
-    "repoName": "simulate",
-    "repoDescription": "Standard library simulation utilities.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.112Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTU4Njg=",
-    "repoUrl": "https://github.com/stdlib-js/streams",
-    "repoName": "streams",
-    "repoDescription": "Standard library streams.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.091Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTYwODU=",
-    "repoUrl": "https://github.com/stdlib-js/symbol",
-    "repoName": "symbol",
-    "repoDescription": "Symbol.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.110Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTY0NjM=",
-    "repoUrl": "https://github.com/stdlib-js/buffer",
-    "repoName": "buffer",
-    "repoDescription": "Buffer.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.102Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTY1OTk=",
@@ -3930,7 +3770,7 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.768Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   },
   {
     "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTcxNzU=",
@@ -4397,216 +4237,6 @@
       }
     ],
     "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.129Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjA1NTgwNjY=",
-    "repoUrl": "https://github.com/stdlib-js/types",
-    "repoName": "types",
-    "repoDescription": "stdlib TypeScript type declarations.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.161Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjI1ODE1MzM=",
-    "repoUrl": "https://github.com/stdlib-js/math-base-special",
-    "repoName": "math-base-special",
-    "repoDescription": "Standard library base special math functions.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.808Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjI4OTQ5OTI=",
-    "repoUrl": "https://github.com/stdlib-js/assert-is-undefined",
-    "repoName": "assert-is-undefined",
-    "repoDescription": "Test if a value is undefined.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.152Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjI5MDEyOTM=",
-    "repoUrl": "https://github.com/stdlib-js/assert-is-boolean",
-    "repoName": "assert-is-boolean",
-    "repoDescription": "Test if a value is a boolean.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.224Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjQzMDcyNTk=",
-    "repoUrl": "https://github.com/stdlib-js/assert-is-nan",
-    "repoName": "assert-is-nan",
-    "repoDescription": "Test if a value is NaN.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.812Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjQ0MTc4MjE=",
-    "repoUrl": "https://github.com/stdlib-js/assert-is-arguments",
-    "repoName": "assert-is-arguments",
-    "repoDescription": "Test if a value is an arguments object.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.230Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNjQ2NTczMTU=",
-    "repoUrl": "https://github.com/stdlib-js/assert-is-null",
-    "repoName": "assert-is-null",
-    "repoDescription": "Test if a value is null.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.279Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMDI=",
-    "repoUrl": "https://github.com/stdlib-js/utils-property-symbols",
-    "repoName": "utils-property-symbols",
-    "repoDescription": "Return an array of an object's own symbol properties.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.361Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMTA=",
-    "repoUrl": "https://github.com/stdlib-js/utils-noop",
-    "repoName": "utils-noop",
-    "repoDescription": "Function which does nothing.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.242Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMTk=",
-    "repoUrl": "https://github.com/stdlib-js/utils-next-tick",
-    "repoName": "utils-next-tick",
-    "repoDescription": "Add a callback to the next tick queue.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.264Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMjg=",
-    "repoUrl": "https://github.com/stdlib-js/utils-keys-in",
-    "repoName": "utils-keys-in",
-    "repoDescription": "Return an array of an object's own and inherited enumerable property names.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.239Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzI5OTIzMzg=",
-    "repoUrl": "https://github.com/stdlib-js/utils-if-else",
-    "repoName": "utils-if-else",
-    "repoDescription": "If a condition is truthy, return `x`; otherwise, return `y`.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.255Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMwMjM2NDg=",
-    "repoUrl": "https://github.com/stdlib-js/utils-identity-function",
-    "repoName": "utils-identity-function",
-    "repoDescription": "Identity function.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.328Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMwMjM2Njc=",
-    "repoUrl": "https://github.com/stdlib-js/utils-constant-function",
-    "repoName": "utils-constant-function",
-    "repoDescription": "Constant function.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.301Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMwMjM2ODk=",
-    "repoUrl": "https://github.com/stdlib-js/utils-define-property",
-    "repoName": "utils-define-property",
-    "repoDescription": "Define (or modify) an object property.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.339Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzMjIyNDk=",
-    "repoUrl": "https://github.com/stdlib-js/utils-move-property",
-    "repoName": "utils-move-property",
-    "repoDescription": "Move a property from one object to another object.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.998Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzMjY1Mzc=",
-    "repoUrl": "https://github.com/stdlib-js/utils-inherit",
-    "repoName": "utils-inherit",
-    "repoDescription": "Implement prototypical inheritance by replacing the prototype of one constructor with the prototype of another constructor.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.390Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzMjcyOTg=",
-    "repoUrl": "https://github.com/stdlib-js/utils-define-write-only-accessor",
-    "repoName": "utils-define-write-only-accessor",
-    "repoDescription": "Define a write-only accessor.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:13.939Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzMzNTk2OTc=",
-    "repoUrl": "https://github.com/stdlib-js/.github",
-    "repoName": ".github",
-    "repoDescription": "Community health files for stdlib repositories.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.408Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzM2Mzg0OTg=",
-    "repoUrl": "https://github.com/stdlib-js/utils-define-read-write-accessor",
-    "repoName": "utils-define-read-write-accessor",
-    "repoDescription": "Define a read-write accessor.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.366Z"
-  },
-  {
-    "repoId": "MDEwOlJlcG9zaXRvcnkzNzM2Mzg1MTM=",
-    "repoUrl": "https://github.com/stdlib-js/utils-define-read-only-property",
-    "repoName": "utils-define-read-only-property",
-    "repoDescription": "Define a read-only property.",
-    "issues": [],
-    "commits": [],
-    "pullRequests": [],
-    "generatedAt": "2025-12-28T16:54:14.434Z"
+    "generatedAt": "2025-12-28T17:07:40.334Z"
   }
 ]
