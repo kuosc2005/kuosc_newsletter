@@ -1,10 +1,6 @@
 import "dotenv/config";
-import {
-  fetchData,
-  fetchRepos,
-  getSummary,
-} from "./controller/newsletter.controller";
-import { GithubRepo, Summary } from "./types/github";
+import { fetchRepos, getSummary } from "./controller/newsletter.controller";
+import { Summary } from "./types/github";
 import { sendDigestEmail } from "./sendDigest";
 
 async function main() {

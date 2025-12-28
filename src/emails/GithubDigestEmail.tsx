@@ -3,7 +3,6 @@ import {
   Body,
   Container,
   Section,
-  Text,
   Link,
   Preview,
   Head,
@@ -171,8 +170,8 @@ export default function EmailTemplate({ summary }: Props) {
                               <Img
                                 className="rounded-full"
                                 src={pr.author?.avatarUrl}
-                                width="10"
-                                height="10"
+                                width="40"
+                                height="40"
                                 alt={`${pr.author.login}'s profile picture`}
                               />
                               <div className="flex-1 min-w-0">
@@ -230,8 +229,8 @@ export default function EmailTemplate({ summary }: Props) {
                               <Img
                                 className="rounded-full"
                                 src={commit.author.avatarUrl}
-                                width="10"
-                                height="10"
+                                width="40"
+                                height="40"
                                 alt={`${commit.author.user.login}'s profile picture`}
                               />
                               <div className="flex-1 min-w-0">
