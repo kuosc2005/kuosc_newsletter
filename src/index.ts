@@ -4,7 +4,7 @@ import { Summary } from "./types/github";
 import { sendDigestEmail } from "./sendDigest";
 
 async function main() {
-  const owner = "stdlib-js";
+  const owner = "kuosc2005";
   try {
     const repos = await fetchRepos(owner);
     const summary: Summary[] = await getSummary(owner, repos);
@@ -16,5 +16,4 @@ async function main() {
     process.exit(1);
   }
 }
-
 main();

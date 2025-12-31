@@ -37,7 +37,7 @@ export async function getSummary(owner: string, repos: GithubRepo[]) {
           owner,
           repo.name,
         );
-        if (!issues.length && !commits.length && !pullRequests.length)
+        if (!issues?.length && !commits?.length && !pullRequests?.length)
           return null;
         return {
           repoId: repo.id,
