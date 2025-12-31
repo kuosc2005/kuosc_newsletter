@@ -22,14 +22,25 @@ export async function getCommitsData(
   });
   return data.repository.defaultBranchRef?.target.history.nodes;
 }
-export async function getIssueData(owner: string, name: string, sinceDate: string): Promise<Issue[]> {
-  const data = await githubClient.request(ISSUE_QUERY, { owner, name, sinceDate });
+export async function getIssueData(
+  owner: string,
+  name: string,
+  sinceDate: string,
+): Promise<Issue[]> {
+  const data = await githubClient.request(ISSUE_QUERY, {
+    owner,
+    name,
+    sinceDate,
+  });
   return data.repository.issues?.nodes;
 }
 
-export async function getPRData(owner: string, name: string, sinceDate:string): Promise<PullRequest[]> {
-
-    const searchQuery = `repo:${owner}/${name} is:pr created:>=${sinceDate}` 
+export async function getPRData(
+  owner: string,
+  name: string,
+  sinceDate: string,
+): Promise<PullRequest[]> {
+  const searchQuery = `repo:${owner}/${name} is:pr created:>=${sinceDate}`;
 
   const data = await githubClient.request(PR_QUERY, {searchQuery});
   return data.search.nodes

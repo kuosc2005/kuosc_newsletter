@@ -9,12 +9,12 @@ export const COMMIT_QUERY = gql`
       defaultBranchRef {
         target {
           ... on Commit {
-            history(first: 100, since: $sinceDate) {
+            history(first: 5, since: $sinceDate) {
               nodes {
                 id
                 url
                 oid
-                message
+                messageHeadline
                 additions
                 deletions
                 changedFilesIfAvailable
@@ -22,8 +22,10 @@ export const COMMIT_QUERY = gql`
                 author {
                   email
                   name
+                  avatarUrl
                   user {
                     login
+                    url
                   }
                 }
               }
